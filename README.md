@@ -1,1 +1,1 @@
-## GroupDocs.Translation Cloud Documentation
+## GroupDocs.Translation Cloud Documentation & Examples
