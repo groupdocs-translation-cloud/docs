@@ -63,6 +63,8 @@ See the full list of [Supported File Formats](translation/supported-document-for
 
 * [GroupDocs.Translation Cloud for cURL](https://products.groupdocs.cloud/translation/curl)
 * [GroupDocs.Translation Cloud for .NET](https://products.groupdocs.cloud/translation/net)
+* [GroupDocs.Translation Cloud for Python](https://products.groupdocs.cloud/translation/python)
+* [GroupDocs.Translation Cloud for Java](https://products.groupdocs.cloud/translation/java)
 
 ####   ####
 

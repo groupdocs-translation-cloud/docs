@@ -114,6 +114,10 @@ C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Files_List.cs >}}
 
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_get_files_list.py >}}
+
 # Create a New Folder #
 
 This API allows you to create a new folder in the specified Cloud Storage. If you do not pass storage name API will create New Folder in default Cloud Storage.
@@ -156,6 +160,10 @@ C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Create_Folder.cs >}}
 
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_create_folder.py >}}
+
 # Delete a Particular Folder #
 
 This API allows you to delete a particular folder in the specified Cloud Storage. If you do not pass storage name API will create New Folder in default Cloud Storage. To remove recursively inner folder/files you need to pass true value to a recursive parameter in Request. If it is set to false and folder contains data then API throws the exception.
@@ -197,6 +205,10 @@ Our API is completely independent of your operating system, database system or d
 C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Delete_Folder.cs >}}
+
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_delete_folder.py >}}
 
 # Copy Specific Folder #
 
@@ -242,6 +254,10 @@ C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Copy_Folder.cs >}}
 
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_copy_folder.py >}}
+
 # Move a Specific Folder #
 
 This API allows you to move a folder to another location in the GroupDocs Cloud Storage. If you do not pass source and destination storage names API will move Folder within default Cloud Storage.
@@ -285,3 +301,7 @@ Our API is completely independent of your operating system, database system or d
 C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Move_Folder.cs >}}
+
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_move_folder.py >}}

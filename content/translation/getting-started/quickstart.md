@@ -64,6 +64,10 @@ C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Translate_Text.cs >}}
 
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_translate_text.py >}}
+
 ##### To translate document #####
 
 ###### cURL ######
@@ -91,6 +95,10 @@ Response
 C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Translate_Document.cs >}}
+
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_translate_document.py >}}
 
 
 

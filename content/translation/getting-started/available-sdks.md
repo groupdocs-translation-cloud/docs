@@ -27,3 +27,5 @@ Our supported SDKs are 100% tested and out of the box running. These SDKs are op
 
 * [GroupDocs.Translation Cloud for cURL](https://products.groupdocs.cloud/translation/curl)
 * [GroupDocs.Translation Cloud for .NET](https://products.groupdocs.cloud/translation/net)
+* [GroupDocs.Translation Cloud for Python](https://products.groupdocs.cloud/translation/python)
+* [GroupDocs.Translation Cloud for Java](https://products.groupdocs.cloud/translation/java)

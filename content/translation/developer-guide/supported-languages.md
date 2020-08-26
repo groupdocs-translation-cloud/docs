@@ -10,8 +10,6 @@ keywords: ""
 
 GroupDocs.Translation Cloud supports 10 languages and 18 language pairs. User should specify language pair by putting in the request’s:
 
-* **docx / docm / doc** — to translate Microsoft Word document.
-* **xlsx / xlsm / xls** — to translate Microsoft Excel document.
 * **en-fr / fr-en** — to translate from English to French or from French to English.
 * **en-de / de-en**— to translate from English to German or from German to English.
 * **en-es / es-en**— to translate from English to Spanish or from Spanish to English.

@@ -59,10 +59,9 @@ C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Download_File.cs >}}
 
+Python
 
-
-
-
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_download_file.py >}}
 
 # Upload File API #
 
@@ -120,6 +119,10 @@ C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Upload_File.cs >}}
 
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_upload_file.py >}}
+
 # Delete File API #
 
 This API allows you to delete a specific file from [GroupDocs Cloud Storage](https://dashboard.groupdocs.cloud/).
@@ -164,6 +167,10 @@ C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Delete_File.cs >}}
 
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_delete_file.py >}}
+
 # File Copy API #
 
 This API allows you to copy a specific file from [GroupDocs Cloud Storage](https://dashboard.groupdocs.cloud/).
@@ -207,6 +214,10 @@ Our API is completely independent of your operating system, database system, or 
 C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Copy_File.cs >}}
+
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_copy_file.py >}}
 
 # File Move API #
 
@@ -253,3 +264,7 @@ Our API is completely independent of your operating system, database system, or 
 C#
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Move_File.cs >}}
+
+Python
+
+{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_move_file.py >}}
