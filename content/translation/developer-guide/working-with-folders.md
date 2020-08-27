@@ -118,6 +118,10 @@ Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_get_files_list.py >}}
 
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Files_List.java >}}
+
 # Create a New Folder #
 
 This API allows you to create a new folder in the specified Cloud Storage. If you do not pass storage name API will create New Folder in default Cloud Storage.
@@ -164,6 +168,10 @@ Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_create_folder.py >}}
 
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Create_Folder.java >}}
+
 # Delete a Particular Folder #
 
 This API allows you to delete a particular folder in the specified Cloud Storage. If you do not pass storage name API will create New Folder in default Cloud Storage. To remove recursively inner folder/files you need to pass true value to a recursive parameter in Request. If it is set to false and folder contains data then API throws the exception.
@@ -209,6 +217,10 @@ C#
 Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_delete_folder.py >}}
+
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Delete_Folder.java >}}
 
 # Copy Specific Folder #
 
@@ -258,6 +270,10 @@ Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_copy_folder.py >}}
 
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Copy_Folder.java >}}
+
 # Move a Specific Folder #
 
 This API allows you to move a folder to another location in the GroupDocs Cloud Storage. If you do not pass source and destination storage names API will move Folder within default Cloud Storage.
@@ -305,3 +321,7 @@ C#
 Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_move_folder.py >}}
+
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Move_Folder.java >}}

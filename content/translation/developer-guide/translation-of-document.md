@@ -54,3 +54,7 @@ C#
 Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_translate_document.py >}}
+
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Translate_Document.java >}}

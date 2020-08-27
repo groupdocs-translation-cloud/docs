@@ -57,6 +57,10 @@ Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_storage_exists.py >}}
 
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Storage_Exists.java >}}
+
 # Storage object existence API #
 
 This API intended for checking the existence of a file or folder in [GroupDocs Cloud Storage](https://dashboard.groupdocs.cloud).
@@ -104,6 +108,10 @@ Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_object_exists.py >}}
 
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Object_Exists.java >}}
+
 # Storage Space Usage API #
 
 This API intended for getting total and used space of the[ GroupDocs Cloud Storage](https://dashboard.groupdocs.cloud)
@@ -148,6 +156,10 @@ C#
 Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_space_usage.py >}}
+
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Space_Usage.java >}}
 
 # Storage File Versions API #
 
@@ -203,3 +215,7 @@ C#
 Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_file_versions.py >}}
+
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_File_Versions.java >}}

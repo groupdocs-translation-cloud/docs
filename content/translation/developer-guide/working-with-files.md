@@ -63,6 +63,10 @@ Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_download_file.py >}}
 
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Download_File.java >}}
+
 # Upload File API #
 
 This API allows you to upload files to the [GroupDocs Cloud Storage](https://dashboard.groupdocs.cloud/).
@@ -123,6 +127,10 @@ Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_upload_file.py >}}
 
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Upload_File.java >}}
+
 # Delete File API #
 
 This API allows you to delete a specific file from [GroupDocs Cloud Storage](https://dashboard.groupdocs.cloud/).
@@ -171,6 +179,10 @@ Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_delete_file.py >}}
 
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Delete_File.java >}}
+
 # File Copy API #
 
 This API allows you to copy a specific file from [GroupDocs Cloud Storage](https://dashboard.groupdocs.cloud/).
@@ -218,6 +230,10 @@ C#
 Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_copy_file.py >}}
+
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Copy_File.java >}}
 
 # File Move API #
 
@@ -268,3 +284,7 @@ C#
 Python
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_move_file.py >}}
+
+Java
+
+{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Move_File.java >}}
