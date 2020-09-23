@@ -31,6 +31,7 @@ keywords: ""
 * English-Arabic and Arabic-English
 * English-Portuguese and Portuguese-English
 * English-Polish and Polish-English
+* French-German and German-French
 
 ####   ####
 

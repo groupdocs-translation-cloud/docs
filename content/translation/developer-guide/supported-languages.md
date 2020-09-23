@@ -18,4 +18,5 @@ GroupDocs.Translation Cloud supports 10 languages and 18 language pairs. User 
 * **en-ru / ru-en** — to translate from English to Russian or from Russian to English
 * **en-ar / ar-en**— to translate from English to Arabic or from Arabic to English 
 * **en-pt / pt-en**— to translate from English to Portuguese or from Portuguese to English
-* **en-pl / pl-en** - to translate from english to Polish or from Polish to English
+* **en-pl / pl-en** - to translate from English to Polish or from Polish to English
+* **fr-de / de-fr** - to translate from French to German or from German to French
