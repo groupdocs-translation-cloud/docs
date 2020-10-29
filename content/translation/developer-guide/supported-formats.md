@@ -12,3 +12,4 @@ GroupDocs.Translation Cloud allows to translate Microsoft Word and Excel documen
 
 * **extension of word file (docx / docm / doc)** — to translate Microsoft Word document
 * **extension of excel file (xlsx / xlsm / xls)** — to translate Microsoft Excel workbook
+* **extension of powerpoint file (ppt / pptx / pptm)** — to translate Microsoft PowerPoint presentation

@@ -94,10 +94,10 @@ Now that you have the Bearer Token (access_token) generated using the applicatio
 
 Request
 ``` 
-curl -v "http://api.groupdocs.com/v1.0/translation/document"
--H "Authorization: Bearer TOKEN"
--H "content-type: application/json"
--X POST -d "'[ { \"format\":\"docx\", \"pair\":\"en-fr\", \"name\":\"document.docx\", \"folder\":\"myFolder\", \"savepath\":\"myFolder\", \"savefile\":\"translatedDoc.docx\", \"storage\":\"MyStorage\" }]'"
+curl -X POST "https://api.groupdocs.cloud/v1.0/translation/document" \
+-H "Authorization: Bearer TOKEN" \
+-H "Content-Type: application/json" \
+-d "'[ { \"format\":\"docx\", \"pair\":\"en-fr\", \"name\":\"document.docx\", \"folder\":\"myFolder\", \"savepath\":\"myFolder\", \"savefile\":\"translatedDoc.docx\", \"storage\":\"MyStorage\", \"masters\": false, \"elements\": []}]'"
 ```
 
 

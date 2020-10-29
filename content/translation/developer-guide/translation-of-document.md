@@ -29,7 +29,7 @@ Request
 curl -X POST "https://api.groupdocs.cloud/v1.0/translation/document" \
 -H "Authorization: Bearer TOKEN" \
 -H "Content-Type: application/json" \
--d "'[{\"format\":\"docx\", \"pair\":\"en-fr\", \"name\":\"document.docx\", \"folder\":\"myFolder\", \"savepath\":\"myFolder\", \"savefile\":\"translatedDoc.docx\", \"storage\":\"MyStorage\"}]'"
+-d "'[ { \"format\":\"docx\", \"pair\":\"en-fr\", \"name\":\"document.docx\", \"folder\":\"myFolder\", \"savepath\":\"myFolder\", \"savefile\":\"translatedDoc.docx\", \"storage\":\"MyStorage\", \"masters\": false, \"elements\": []}]'"
 ```
 
 Response

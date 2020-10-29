@@ -15,7 +15,8 @@ keywords: ""
 
 * Microsoft Word
 * Microsoft Excel
-* Documents created in alternative software like OpenOffice, LibreOffice, Apple Pages / Numbers and exported to Word / Excel format.
+* Microsoft PowerPoint
+* Documents created in alternative software like OpenOffice, LibreOffice, Apple Pages / Numbers / Keynote and exported to Word / Excel format.
 * Plain Text
 
 ####   ####
@@ -32,6 +33,7 @@ keywords: ""
 * English-Portuguese and Portuguese-English
 * English-Polish and Polish-English
 * French-German and German-French
+* French-Italian and Italian-French
 
 ####   ####
 
@@ -51,6 +53,16 @@ keywords: ""
 * Translation of charts
 * Translation of tables
 * Translation of pivot tables
+
+#### Supported features of Microsoft PowerPoint: ####
+
+* Translation of text frames
+* Translation of charts
+* Translation of tables
+* Translation of headers and footers
+* Translation of notes and comments
+* Translation of master slides
+* Translation of selected slides
 
 ####   ####
 
