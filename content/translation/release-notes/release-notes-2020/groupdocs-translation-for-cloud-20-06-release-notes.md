@@ -3,6 +3,7 @@ id: "groupdocs-translation-for-cloud-20-06-release-notes"
 url: "translation/groupdocs-translation-for-cloud-20-06-release-notes"
 title: "GroupDocs.Translation for Cloud 20.6 Release Notes"
 productName: "GroupDocs.Translation Cloud"
+weight: 3
 description: ""
 keywords: ""
 ---
