@@ -83,7 +83,9 @@ See the full list of [Supported File Formats](translation/supported-document-for
 
 #### Security and authentification ####
 
-GroupDocs.Translation Cloud API is secured with SSL and use OAuth 2.0 as an authentication system.
+GroupDocs Translation Cloud API fully complies with the industry security standards: data transmission is carried out under the JWT authentication that excludes the possibility of snatching information by third parties. For this purpose, you must acquire an App SID and App KEY identifiers to authenticate API requests before being able to use the Reporting Engine functionality.
+
+Have a look at the [“Authenticating API Requests”](https://docs.groupdocs.cloud/total/authenticating-api-requests/) article to gain a better understanding of the underlying security layer.
 
 ####   ####
 
