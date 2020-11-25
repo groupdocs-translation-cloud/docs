@@ -15,21 +15,23 @@ keywords: ""
 Creating an account is very simple. Go to [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) to create a free account.
 
 
-#### Get App Key and SID ####
+#### Get Client Id and Client Secret ####
 
-Before you can make any requests to GroupDocs Cloud API you need to get APP SID and APP key (secret key). This will be used to invoke the GroupDocs Cloud API.
+Before you can make any requests to GroupDocs Cloud API you need to get Client Id and Client Secret.\
+This will be used to invoke the GroupDocs Cloud API.
 
-You can get it from the default Application or create a new Application. For further details see [Create New App and Get App Key and SID>>doc:translationcloud.getting-started.create-new-app-and-get-app-key-and-sid.WebHome)
+You can get it from any existing Application or you can create a new Application.\
+For further details see [Create New Application and Get Client Id and Client Secret]({{< ref "total/getting-started/ui-topics/creating-and-managing-application.md" >}})
 
 
 #### Get your JWT token ####
 
-After you have created a new application you can obtain a JWT token. See [JSON Web Token Authentication>>doc:translationcloud.getting-started.json-web-token-authentication.WebHome) for further details.
+After you have created a new application you can obtain a JWT token. See [this page]({{< ref "total/getting-started/overview-rest-api/authenticating-api-requests.md" >}}) for further details about this.
 
 
 #### Call Rest API ####
 
-When you’ve got your access_token your can make Rest API call by adding to Headers of your request:
+When you’ve got your access_token you can make Rest API call by adding to Headers of your request:
 
 * Authorization: Bearer access_token
 
