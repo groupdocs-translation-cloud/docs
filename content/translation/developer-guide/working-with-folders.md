@@ -110,17 +110,19 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-C#
+{{< tabs tabTotal="3" tabID="1" tabName1="C#" tabName2="Java" tabName3="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Files_List.cs >}}
 
-Python
+{{< /tab >}} {{< tab tabNum="3" >}}
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_get_files_list.py >}}
 
-Java
+{{< /tab >}} {{< tab tabNum="2" >}}
 
 {{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Files_List.java >}}
+
+{{< /tab >}} {{< /tabs >}}
 
 # Create a New Folder #
 
@@ -160,17 +162,19 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-C#
+{{< tabs tabTotal="3" tabID="1" tabName1="C#" tabName2="Java" tabName3="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Create_Folder.cs >}}
 
-Python
+{{< /tab >}} {{< tab tabNum="3" >}}
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_create_folder.py >}}
 
-Java
+{{< /tab >}} {{< tab tabNum="2" >}}
 
 {{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Create_Folder.java >}}
+
+{{< /tab >}} {{< /tabs >}}
 
 # Delete a Particular Folder #
 
@@ -210,17 +214,19 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-C#
+{{< tabs tabTotal="3" tabID="1" tabName1="C#" tabName2="Java" tabName3="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Delete_Folder.cs >}}
 
-Python
+{{< /tab >}} {{< tab tabNum="3" >}}
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_delete_folder.py >}}
 
-Java
+{{< /tab >}} {{< tab tabNum="2" >}}
 
 {{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Delete_Folder.java >}}
+
+{{< /tab >}} {{< /tabs >}}
 
 # Copy Specific Folder #
 
@@ -262,17 +268,19 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-C#
+{{< tabs tabTotal="3" tabID="1" tabName1="C#" tabName2="Java" tabName3="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Copy_Folder.cs >}}
 
-Python
+{{< /tab >}} {{< tab tabNum="3" >}}
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_copy_folder.py >}}
 
-Java
+{{< /tab >}} {{< tab tabNum="2" >}}
 
 {{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Copy_Folder.java >}}
+
+{{< /tab >}} {{< /tabs >}}
 
 # Move a Specific Folder #
 
@@ -314,14 +322,16 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-C#
+{{< tabs tabTotal="3" tabID="1" tabName1="C#" tabName2="Java" tabName3="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Move_Folder.cs >}}
 
-Python
+{{< /tab >}} {{< tab tabNum="3" >}}
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_move_folder.py >}}
 
-Java
+{{< /tab >}} {{< tab tabNum="2" >}}
 
 {{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Move_Folder.java >}}
+
+{{< /tab >}} {{< /tabs >}}

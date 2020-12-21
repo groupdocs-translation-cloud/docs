@@ -10,7 +10,8 @@ keywords: ""
 
 User should put in the requests body following information to translate a document:
 
-* **format** — format of translated file (ex: docx)
+* **format** — format of file for translation (ex: docx)
+* **outformat** — format of translated file (ex: pdf)
 * **pair** — language translation pair (ex: en-fr)
 * **name** — name of file to translate (ex: test.docx)
 * **folder** — folder of file to translate (ex: translate) 

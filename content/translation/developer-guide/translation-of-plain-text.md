@@ -47,14 +47,16 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-C#
+{{< tabs tabTotal="3" tabID="1" tabName1="C#" tabName2="Java" tabName3="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Translate_Text.cs >}}
 
-Python
+{{< /tab >}} {{< tab tabNum="3" >}}
 
 {{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_translate_text.py >}}
 
-Java
+{{< /tab >}} {{< tab tabNum="2" >}}
 
 {{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Translate_Text.java >}}
+
+{{< /tab >}} {{< /tabs >}}

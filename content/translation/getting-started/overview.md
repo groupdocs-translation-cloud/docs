@@ -8,7 +8,7 @@ description: ""
 keywords: ""
 ---
 
-[GroupDocs.Translation Cloud](https://products.groupdocs.cloud/translation) offers REST API to translate documents in various formats and plain text using Cloud-based solution with Machine Learning approaches (Neural Machine Translation). It allows translation of documents preserving overall document structure, font, cells, tables, etc.
+[GroupDocs.Translation Cloud](https://products.groupdocs.cloud/translation) offers REST API to translate documents in various formats and plain text using Cloud-based solution with Machine Learning approaches (Neural Machine Translation). It allows translation of documents preserving overall document structure, font, cells, tables, etc. and conversion of translated file to supported format.
 
 
 #### Supported documents: ####
