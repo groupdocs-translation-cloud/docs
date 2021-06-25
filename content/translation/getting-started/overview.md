@@ -16,6 +16,7 @@ keywords: ""
 * Microsoft Word
 * Microsoft Excel
 * Microsoft PowerPoint
+* Adobe PDF (images in PDF document not supported)
 * Documents created in alternative software like OpenOffice, LibreOffice, Apple Pages / Numbers / Keynote and exported to Word / Excel format.
 * Plain Text
 
@@ -83,7 +84,7 @@ See the full list of [Supported File Formats](translation/supported-document-for
 
 #### Security and authentification ####
 
-GroupDocs Translation Cloud API fully complies with the industry security standards: data transmission is carried out under the JWT authentication that excludes the possibility of snatching information by third parties. For this purpose, you must acquire an App SID and App KEY identifiers to authenticate API requests before being able to use the Reporting Engine functionality.
+GroupDocs Translation Cloud API fully complies with the industry security standards: data transmission is carried out under the JWT authentication that excludes the possibility of snatching information by third parties. For this purpose, you must acquire a ClientID and ClientSecret identifiers to authenticate API requests before being able to use the Reporting Engine functionality.
 
 Have a look at the [“Authenticating API Requests”](https://docs.groupdocs.cloud/total/authenticating-api-requests/) article to gain a better understanding of the underlying security layer.
 
