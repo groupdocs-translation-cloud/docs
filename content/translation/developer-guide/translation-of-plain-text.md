@@ -19,7 +19,7 @@ This API allows you to translate plain text from your request.
 
 |**Parameter**|**Description**|
 |---|---|
-|**userRequest**|String that represents list of JSONs precised in [JSON Request Details](https://wiki.groupdocs.cloud/translationcloud/developer-guide/json-request-details/).<br>Required.|
+|**userRequest**|String that represents list of JSONs precised in [JSON Request Details](translation/json-request-details).<br>Required.|
 
 ## cURL Example ##
 
