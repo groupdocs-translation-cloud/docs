@@ -33,6 +33,10 @@ keywords: ""
 * English-Arabic and Arabic-English
 * English-Portuguese and Portuguese-English
 * English-Polish and Polish-English
+* English-Ukrainian and Ukrainian-English
+* English-Vietnamese and Vietnamese-English
+* English-Indonesian and Indonesian-English
+* English-Hindi and Hindi-English
 * French-German and German-French
 * French-Italian and Italian-French
 
