@@ -17,6 +17,7 @@ keywords: ""
 * Microsoft Excel
 * Microsoft PowerPoint
 * Adobe PDF (images in PDF document not supported)
+* Markdown
 * Documents created in alternative software like OpenOffice, LibreOffice, Apple Pages / Numbers / Keynote and exported to Word / Excel format.
 * Plain Text
 

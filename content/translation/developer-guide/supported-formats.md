@@ -14,6 +14,7 @@ GroupDocs.Translation Cloud allows to translate Microsoft Word and Excel documen
 * **extension of excel file (xlsx / xlsm / xls)** — to translate Microsoft Excel workbook
 * **extension of powerpoint file (ppt / pptx / pptm)** — to translate Microsoft PowerPoint presentation
 * **extension of PDF file (pdf)** — to translate Adobe PDF document
+* **extensiion of Markdown file (md)** - to translate Markdown file
 
 Additionally, user could obtain translated file in any other format available for conversion. Just specify output format of translated document putting file extension in the request's body:
 
@@ -21,6 +22,7 @@ Additionally, user could obtain translated file in any other format available fo
 * **xls, xlsx** — xlsx, xlsb, html, pdf, xps, ods, md, docx, pptx, tiff
 * **ppt, pptx** — pptx, pdf, tiff, html, xps, odp
 * **pdf** — docx, pptx, html, xps, svg
+* **md** - html
 
 Remarks:
 
