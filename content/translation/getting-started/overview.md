@@ -38,8 +38,14 @@ keywords: ""
 * English-Vietnamese and Vietnamese-English
 * English-Indonesian and Indonesian-English
 * English-Hindi and Hindi-English
+* English-Greek and Greek-English
+* English-Dutch and Dutch-English
+* English-Hungarian and Hungarian-English
+* English-Swedish and Swedish-English
+* English-Turkish and Turkish-English
 * French-German and German-French
 * French-Italian and Italian-French
+* French-Arabic and Arabic-French
 
 ####   ####
 
@@ -84,6 +90,7 @@ See the full list of [Supported File Formats](translation/supported-document-for
 * [GroupDocs.Translation Cloud for .NET](https://products.groupdocs.cloud/translation/net)
 * [GroupDocs.Translation Cloud for Python](https://products.groupdocs.cloud/translation/python)
 * [GroupDocs.Translation Cloud for Java](https://products.groupdocs.cloud/translation/java)
+* [GroupDocs.Translation Cloud for Android](https://products.groupdocs.cloud/translation/android)
 
 ####   ####
 

@@ -29,3 +29,4 @@ Our supported SDKs are 100% tested and out of the box running. These SDKs are op
 * [GroupDocs.Translation Cloud for .NET](https://products.groupdocs.cloud/translation/net)
 * [GroupDocs.Translation Cloud for Python](https://products.groupdocs.cloud/translation/python)
 * [GroupDocs.Translation Cloud for Java](https://products.groupdocs.cloud/translation/java)
+* [GroupDocs.Translation Cloud for Android](https://products.groupdocs.cloud/translation/android)

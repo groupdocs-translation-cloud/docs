@@ -8,7 +8,7 @@ description: ""
 keywords: ""
 ---
 
-GroupDocs.Translation Cloud supports 14 languages and 30 language pairs. User should specify language pair by putting in the request’s:
+GroupDocs.Translation Cloud supports 19 languages and 42 language pairs. User should specify language pair by putting in the request’s:
 
 * **en-fr / fr-en** — to translate from English to French or from French to English.
 * **en-de / de-en** — to translate from English to German or from German to English.
@@ -23,5 +23,11 @@ GroupDocs.Translation Cloud supports 14 languages and 30 language pairs. User 
 * **en-vi / vi-en** — to translate from English to Vietnamese or from Vietnamese to English
 * **en-id / id-en** — to translate from English to Indonesian or from Indonesian to English
 * **en-hi / hi-en** — to translate from English to Hindi or from Hindi to English
+* **en-el / el-en** — to translate from English to Greek or from Greek to English
+* **en-nl / nl-en** — to translate from English to Dutch or from Dutch to English
+* **en-sv / sv-en** — to translate from English to Swedish or from Swedish to English
+* **en-hu / hu-en** — to translate from English to Hungarian or from Hungarian to English
+* **en-tr / tr-en** — to translate from English to Turkish or from Turkish to English
 * **fr-de / de-fr** — to translate from French to German or from German to French
 * **fr-it / it-fr** — to translatte from French to Italian or from Italian to French
+* **fr-ar / ar-fr** — to translate from French to Arabic or from Arabic to French

@@ -22,7 +22,7 @@ Additionally, user could obtain translated file in any other format available fo
 * **xls, xlsx** — xlsx, xlsb, html, pdf, xps, ods, md, docx, pptx, tiff
 * **ppt, pptx** — pptx, pdf, tiff, html, xps, odp
 * **pdf** — docx, pptx, html, xps, svg
-* **md** - html
+* **md** - html, pdf, docx, tiff, xps
 
 Remarks:
 
