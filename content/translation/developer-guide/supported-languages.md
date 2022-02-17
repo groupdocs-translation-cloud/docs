@@ -28,6 +28,15 @@ GroupDocs.Translation Cloud supports 19 languages and 42 language pairs. User 
 * **en-sv / sv-en** — to translate from English to Swedish or from Swedish to English
 * **en-hu / hu-en** — to translate from English to Hungarian or from Hungarian to English
 * **en-tr / tr-en** — to translate from English to Turkish or from Turkish to English
+* **en-ja / ja-en** — to translate from English to Japanese or from Japanese to English
+* **en-ko / ko-en** — to translate from English to Korean or from Korean to English
+* **en-cs / cs-en** — to translate from English to Czech or from Czech to English
+* **en-fi / fi-en** — to translate from English to Finnish or from Finnish to English
+* **en-ga / ga-en** — to translate from English to Irish or from Irish to English
+* **en-fa / fa-en** — to translate from English to Farsi or from Farsi to English
+* **en-az / az-en** — to translate from English to Azerbaijani or from Azerbaijani to English
+* **en-he / he-en** — to translate from English to Hebrew or from Hebrew to English
+* **en-sk / sk-en** — to translate from English to Slovak or from Slovak to English
 * **fr-de / de-fr** — to translate from French to German or from German to French
 * **fr-it / it-fr** — to translatte from French to Italian or from Italian to French
 * **fr-ar / ar-fr** — to translate from French to Arabic or from Arabic to French

@@ -43,6 +43,15 @@ keywords: ""
 * English-Hungarian and Hungarian-English
 * English-Swedish and Swedish-English
 * English-Turkish and Turkish-English
+* English-Japanese and Japanese-English
+* English-Korean and Korean-English
+* English-Czech and Czech-English
+* English-Finnish and Finnish-English
+* English-Irish and Irish-English
+* English-Slovak and Slovak-English
+* English-Farsi and Farsi-English
+* English-Hebrew and Hebrew-English
+* English-Azerbaijani and Azerbaijani-English
 * French-German and German-French
 * French-Italian and Italian-French
 * French-Arabic and Arabic-French
