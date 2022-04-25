@@ -13,13 +13,14 @@ keywords: ""
 
 #### Supported documents: ####
 
-* Microsoft Word
-* Microsoft Excel
+* Microsoft Word (including RTF)
+* Microsoft Excel (including CSV and TSV)
 * Microsoft PowerPoint
 * Adobe PDF (images in PDF document not supported)
 * Markdown
-* Documents created in alternative software like OpenOffice, LibreOffice, Apple Pages / Numbers / Keynote and exported to Word / Excel format.
-* Plain Text
+* OpenDocument formats (ODT, ODS, ODP)
+* Documents created in alternative software like Apple Pages / Numbers / Keynote and exported to Word / Excel format.
+* Plain Text and TXT files
 
 ####   ####
 
@@ -52,13 +53,16 @@ keywords: ""
 * English-Farsi and Farsi-English
 * English-Hebrew and Hebrew-English
 * English-Azerbaijani and Azerbaijani-English
+* English-Thai and Thai-English
+* English-Romanian and Romanian-English
+* English-Malay and Malay-English
 * French-German and German-French
 * French-Italian and Italian-French
 * French-Arabic and Arabic-French
 
 ####   ####
 
-#### Supported features of Microsoft Word: ####
+#### Supported features of Microsoft Word / ODT: ####
 
 * Translation of paragraphs
 * Translation of tables
@@ -68,14 +72,14 @@ keywords: ""
 
 ####   ####
 
-#### Supported features of Microsoft Excel: ####
+#### Supported features of Microsoft Excel / ODS: ####
 
 * Translation of cells (if they contain text)
 * Translation of charts
 * Translation of tables
 * Translation of pivot tables
 
-#### Supported features of Microsoft PowerPoint: ####
+#### Supported features of Microsoft PowerPoint / ODP: ####
 
 * Translation of text frames
 * Translation of charts
