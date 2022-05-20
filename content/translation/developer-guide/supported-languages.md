@@ -40,6 +40,7 @@ GroupDocs.Translation Cloud supports 31 languages and 66 language pairs. User 
 * **en-th / th-en** — to translate from English to Thai or from Thai to English
 * **en-ro / ro-en** — to translate from English to Romanian or from Romanian to English
 * **en-ms / ms-en** — to translate from English to Malay or from Malay to English
+* **en-bg / bg-en** — to translate from English to Bulgarian or from Bulgarian to English
 * **fr-de / de-fr** — to translate from French to German or from German to French
 * **fr-it / it-fr** — to translatte from French to Italian or from Italian to French
 * **fr-ar / ar-fr** — to translate from French to Arabic or from Arabic to French

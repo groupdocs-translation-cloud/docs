@@ -56,6 +56,7 @@ keywords: ""
 * English-Thai and Thai-English
 * English-Romanian and Romanian-English
 * English-Malay and Malay-English
+* English-Bulgarian and Bulgarian-English
 * French-German and German-French
 * French-Italian and Italian-French
 * French-Arabic and Arabic-French
