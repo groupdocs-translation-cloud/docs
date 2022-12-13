@@ -30,7 +30,7 @@ OpenDocument Text | .ODT | Documents created with a number of open source word p
 OpenDocument Spreadsheet | .ODS | Spreadsheets created with a number of open source applications, such as _Calc_ from Apache OpenOffice and LibreOffice.
 OpenDocument Presentation | .ODP | Presentations created with a number of open source applications, such as _Impress_ from Apache OpenOffice and LibreOffice.
 Plain text | .TXT | Plain text files or text in the form of lines.
-Markdown | .MD | Plain text files formatted using one of the dialects of the Markdown language.
+Markdown | .MD | Plain text files formatted using one of the dialects of the Markdown language (including Markdown with Hugo syntax).
 Comma-separated values | .CSV | Tabular data in a plain text format that uses commas as a separator between values.
 Tab-separated values | .TSV | Tabular data in a plain text format that uses tabs as a delimiter between values.
 

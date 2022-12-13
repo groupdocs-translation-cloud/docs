@@ -44,6 +44,8 @@ GroupDocs.Translation Cloud supports 35 languages and 74 language pairs. User 
 * **en-bn / bn-en** — to translate from English to Bengali or from Bengali to English
 * **en-da / da-en** — to translate from English to Danish or from Danish to English
 * **en-no / no-en** — to translate from English to Norwegian or from Norwegian to English
+* * **en-lv / lv-en** — to translate from English to Latvian or from Latvian to English
+* **en-lt / lt-en** — to translate from English to Lithuanian or from Lithuanian to English
 * **fr-de / de-fr** — to translate from French to German or from German to French
 * **fr-it / it-fr** — to translatte from French to Italian or from Italian to French
 * **fr-ar / ar-fr** — to translate from French to Arabic or from Arabic to French

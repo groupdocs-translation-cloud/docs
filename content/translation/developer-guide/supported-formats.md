@@ -16,6 +16,7 @@ GroupDocs.Translation Cloud allows to translate Microsoft Word and Excel documen
 * **extension of PDF file (pdf)** — to translate Adobe PDF document
 * **extensiion of Markdown file (md)** - to translate Markdown file
 * **extension of OpenDocument files (odt / ods / odp)** — to translate files of OpenDocument format
+* **hugo** — to translate Markdown file with Hugo syntax
 
 Additionally, user could obtain translated file in any other format available for conversion. Just specify output format of translated document putting file extension in the request's body:
 
@@ -32,3 +33,4 @@ Remarks:
 3. If format is not supported or there is a mistake, translated file would be saved using the same format under specified name in request, i.e. translated.png.docx
 4. Default options are used for file conversion, if result is unsatisfactory, convert it with custom options using corresponding Aspose product 
 5. CSV and TSV files are treated as Excel workbook, so the result of conversion will be exactly the same as for xls(x) file
+6. Conversion of files with Hugo syntax is not supported, as conversion won't render desirable output.

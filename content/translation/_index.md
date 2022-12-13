@@ -31,7 +31,7 @@ Explore free online apps build with GroupDocs.Translation Cloud. Experience prod
 - [Online PDF translation](https://products.groupdocs.app/translation/pdf)  
   Translate PDF file online preserving its structure.
 - [Online text translation](https://products.groupdocs.app/translation/text)  
-  Translate text up to 10,000 characters in any of 32 languages.
+  Translate text up to 10,000 characters in any of 37 languages.
 - [Online Microsoft Word translation](https://products.groupdocs.app/translation/word/)  
   Translate Microsoft Word document online preserving its structure.
 - [Online Excel translation](https://products.groupdocs.app/translation/excel/)  
