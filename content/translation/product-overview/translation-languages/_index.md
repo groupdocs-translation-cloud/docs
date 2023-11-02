@@ -1,7 +1,7 @@
 ---
 id: "translation-languages"
 weight: 10
-date: "2022-06-15"
+date: "2023-10-05"
 author: "Vladimir Lapin"
 type: docs
 url: translation/translation-languages
@@ -17,17 +17,23 @@ keywords:
 - target
 ---
 
-GroupDocs.Translation Cloud supports **37** languages and **78** direct language pairs. The service covers the most popular European, Middle Eastern, and Asian languages, making it a universal solution for translating business and personal documents.
+GroupDocs.Translation Cloud supports **46** languages and **96** direct language pairs. The service covers the most popular European, Middle Eastern, and Asian languages, making it an universal translation solution.
 
 <style>
-	.lang-list th {
-		text-align: center;
+	.lang-list {
+		font-size: 13px;
+		width: auto;
 	}
 	.lang-list th:not(:first-child) {
-		width:  50px;
+		width: 33px;
+		padding: 3px 3px;
+		box-sizing: border-box;
+		text-align: center;
 	}
 	.lang-list td {
-		height: 50px;
+		height: 33px;
+		padding: 3px 3px;
+		box-sizing: border-box;
 		vertical-align: middle;
 	}
 	.lang-list td:not(:first-child) {
@@ -37,7 +43,7 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 	.supported {
 		background-color: #a5c648;
 	}
-	.not-applicable {
+	.inapplicable {
 		background-color: #cccccc;
 	}
 </style>
@@ -46,17 +52,24 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 	<tr>
 		<th>&nbsp;</th>
 		<th>&nbsp;</th>
+		<th>AF</th>
 		<th>AR</th>
+		<th>HY</th>
 		<th>AZ</th>
 		<th>BN</th>
 		<th>BG</th>
+		<th>CA</th>
 		<th>ZH</th>
+		<th>HR</th>
 		<th>CS</th>
 		<th>DA</th>
 		<th>NL</th>
 		<th>EN</th>
+		<th>ET</th>
+		<th>FA</th>
 		<th>FI</th>
 		<th>FR</th>
+		<th>KA</th>
 		<th>DE</th>
 		<th>EL</th>
 		<th>HE</th>
@@ -71,32 +84,90 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<th>LT</th>
 		<th>MS</th>
 		<th>NO</th>
-		<th>FA</th>
 		<th>PL</th>
 		<th>PT</th>
 		<th>RO</th>
 		<th>RU</th>
+		<th>SR</th>
 		<th>SK</th>
 		<th>ES</th>
 		<th>SV</th>
+		<th>TL</th>
 		<th>TH</th>
 		<th>TR</th>
 		<th>UK</th>
+		<th>UR</th>
 		<th>VI</th>
+	</tr>
+	<tr>
+		<td>Afrikaans</td>
+		<td>AF</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 	</tr>
 	<tr>
 		<td>Arabic</td>
 		<td>AR</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>		
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -114,7 +185,60 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>	
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Armenian</td>
+		<td>HY</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -129,12 +253,16 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>Azerbaijani</td>
 		<td>AZ</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>		
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
@@ -153,7 +281,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>	
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -171,12 +304,16 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>BN</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>		
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -203,9 +340,14 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>	
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>	
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 	</tr>
 	<tr>
 		<td>Bulgarian</td>
@@ -213,7 +355,11 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -246,7 +392,62 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>	
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Catalan</td>
+		<td>CA</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 	</tr>
 	<tr>
 		<td>Chinese</td>
@@ -255,7 +456,11 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -287,7 +492,62 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>	
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Croatian</td>
+		<td>HR</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 	</tr>
 	<tr>
 		<td>Czech</td>
@@ -297,7 +557,11 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
@@ -327,7 +591,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>	
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 	</tr>
 	<tr>
@@ -339,7 +608,11 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
@@ -369,7 +642,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>	
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 	</tr>
 	<tr>
 		<td>Dutch</td>
@@ -381,7 +659,11 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -409,7 +691,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>	
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 	</tr>
 	<tr>
@@ -423,7 +710,11 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td class="supported">&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td class="supported">&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td class="supported">&nbsp;</td>
@@ -452,6 +743,111 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td class="supported">&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td class="supported">&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Estonian</td>
+		<td>ET</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Farsi</td>
+		<td>FA</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 	</tr>
 	<tr>
 		<td>Finnish</td>
@@ -464,8 +860,14 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -493,11 +895,38 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 	</tr>
 	<tr>
 		<td>French</td>
 		<td>FR</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -506,17 +935,51 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Georgian</td>
+		<td>KA</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
-		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -547,10 +1010,19 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -588,11 +1060,20 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -629,12 +1110,21 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -670,13 +1160,22 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -711,6 +1210,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -718,7 +1221,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -752,6 +1260,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -760,7 +1272,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -793,6 +1310,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -802,7 +1323,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -834,8 +1360,14 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -844,7 +1376,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -875,6 +1410,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -886,7 +1425,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -916,6 +1460,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -928,7 +1476,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -957,6 +1510,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -970,7 +1527,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -998,6 +1560,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1012,7 +1578,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1029,8 +1600,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 	</tr>
 	<tr>
-		<td>Malay</td>
+		<td>Malaysian</td>
 		<td>MS</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1054,7 +1629,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1080,43 +1660,6 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="supported">&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-	</tr>
-	<tr>
-		<td>Persian</td>
-		<td>FA</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1138,7 +1681,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1162,6 +1710,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1180,7 +1732,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1203,6 +1760,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1222,7 +1783,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1244,6 +1810,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1264,7 +1834,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1285,6 +1860,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1306,7 +1885,62 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Serbian</td>
+		<td>SR</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1326,6 +1960,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1348,7 +1986,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1367,6 +2010,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1390,7 +2037,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1408,6 +2060,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1432,7 +2088,62 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Tagalog</td>
+		<td>TL</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1449,6 +2160,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1474,7 +2189,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1490,6 +2210,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1516,7 +2240,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 	</tr>
@@ -1531,6 +2260,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1558,7 +2291,62 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>Urdu</td>
+		<td>UR</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 		<td>&nbsp;</td>
 	</tr>
 	<tr>
@@ -1572,6 +2360,10 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1600,7 +2392,12 @@ GroupDocs.Translation Cloud supports **37** languages and **78** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td class="not-applicable">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="inapplicable">&nbsp;</td>
 	</tr>
 </table>
 

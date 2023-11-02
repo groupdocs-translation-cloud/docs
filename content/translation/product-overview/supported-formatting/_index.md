@@ -1,7 +1,7 @@
 ---
 id: "supported-formatting"
 weight: 30
-date: "2022-06-15"
+date: "2023-10-05"
 author: "Vladimir Lapin"
 type: docs
 url: translation/supported-formatting
@@ -23,7 +23,11 @@ GroupDocs.Translation Cloud preserves layout, structure, and formatting when tra
 
 ## Microsoft Word / ODT documents
 
-- Paragraphs, lists and headings;
+Most paragraph styles are retained. Inline styles may be lost depending on the grammar and structure of the target language.
+
+- Headings;
+- Paragraphs;
+- Lists;
 - Tables;
 - Headers and footers;
 - Footnotes and end-notes;
@@ -31,9 +35,11 @@ GroupDocs.Translation Cloud preserves layout, structure, and formatting when tra
 
 ## Microsoft Excel / ODS spreadsheets
 
-- Cells that contain text;
+- Cells;
 - Charts;
 - Pivot tables.
+
+Inline text styles in cells will be lost.
 
 ## Microsoft PowerPoint / ODP presentations
 
@@ -44,3 +50,15 @@ GroupDocs.Translation Cloud preserves layout, structure, and formatting when tra
 - Notes and comments;
 - Slides;
 - Master slides.
+
+## Markdown
+
+- Basic GitHub formatting syntax;
+- Hugo syntax structures.
+
+## PDF
+
+- Text blocks (paragraphs);
+- Tables.
+
+Inline text styles will be lost.

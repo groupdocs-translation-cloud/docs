@@ -40,32 +40,60 @@ See the examples below for a quick overview of how SDKs can make your developmen
 
 ### Translating the text 
 
-{{< tabs tabTotal="3" tabID="1" tabName1="C#" tabName2="Java" tabName3="Python" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="1" tabID="1" tabName1=".NET (C#)" >}}
+{{< tab tabNum="1" >}}
+```csharp
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading;
+using GroupDocs.Translation.Cloud.Sdk.Api;
+using GroupDocs.Translation.Cloud.Sdk.Client;
+using GroupDocs.Translation.Cloud.Sdk.Client.Auth;
+using GroupDocs.Translation.Cloud.Sdk.Extensions;
+using GroupDocs.Translation.Cloud.Sdk.Model;
+using HttpStatusCode = System.Net.HttpStatusCode;
 
-{{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Translate_Text.cs >}}
+namespace GroupDocs.Translation.Cloud.Sdk
+{
+	public class TextTranslator
+	{
+		public TextTranslator()
+		{
+			Configuration config = new Configuration();
+			/** Authorize your requests to GroupDocs.Translation Cloud */
+			config.OAuthFlow = OAuthFlow.APPLICATION;
+			config.OAuthClientId = "YOU_CLIENT_ID";
+			config.OAuthClientSecret = "YOU_CLIENT_SECRET";
+			/** Initialize GroupDocs.Translation API */
+			config.BasePath = "https://api.groupdocs.cloud/v2.0/translation";
+			TranslationApi apiInstance = new TranslationApi(config);
+			/** Specify translation parameters */
+			string translateFrom = new List<string>() { "Hello, world! I can read this text in my language." };
+			string sourceLanguage = "en";
+			var targetLanguages = new List<string>() { "de" };
+			var request = new TextRequest(sourceLanguage, targetLanguages, translateFrom, origin: "demo");
+			/** Send text to translation */
+			StatusResponse translationStatus = apiInstance.TextPost(request);
+			/** Wait for results from translation queue */
+			if(translationStatus.Status.ToSystemHttpStatusCode() == HttpStatusCode.Accepted)
+			{
+				while(true)
+				{
+					var result = apiInstance.TextRequestIdGet(statusResponse.Id);
+					if(result.Status.ToSystemHttpStatusCode() == HttpStatusCode.OK)
+					{
+						Console.WriteLine(result.Translations[toLang].First());
+						break;
+					}
+					Thread.Sleep(1000);
+				}
+			}
+		}
+	}
+}
+```
 
-{{< /tab >}} {{< tab tabNum="3" >}}
-
-{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_translate_text.py >}}
-
-{{< /tab >}} {{< tab tabNum="2" >}}
-
-{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Translate_Text.java >}}
-
-{{< /tab >}} {{< /tabs >}}
-
-### Translating the document
-
-{{< tabs tabTotal="3" tabID="1" tabName1="C#" tabName2="Java" tabName3="Python" >}} {{< tab tabNum="1" >}}
-
-{{< gist groupdocscloud ffdd7c22bdf290769f6aa83bb870a80d Translation_CSharp_Translate_Document.cs >}}
-
-{{< /tab >}} {{< tab tabNum="3" >}}
-
-{{< gist groupdocscloud a8f3182d5ec6edb3b9dbc847acd5c097 translation_python_translate_document.py >}}
-
-{{< /tab >}} {{< tab tabNum="2" >}}
-
-{{< gist groupdocscloud 6ba7a98f4edadec75f6e8eac52d2885e Translation_Java_Translate_Document.java >}}
-
-{{< /tab >}} {{< /tabs >}}
+Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-dotnet
+{{< /tab >}}
+{{< /tabs >}}

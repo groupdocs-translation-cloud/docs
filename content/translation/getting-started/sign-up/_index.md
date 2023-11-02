@@ -17,7 +17,7 @@ keywords:
 In order to use GroupDocs.Translation Cloud service, you must first create an account at **GroupDocs Cloud API**:
 
 1. Go to https://dashboard.groupdocs.cloud/
-2. If you are already registered with Aspose, sign in with your user name and password.  
+2. If you are already registered with GroupDocs, sign in with your user name and password.  
    Otherwise, click **Don’t have an account? Sign Up** link and create a new account.
 3. [Check out more information](/translation/subscription/) about available subscription plans and a free tier limits.
 

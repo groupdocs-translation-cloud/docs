@@ -1,7 +1,7 @@
 ---
 id: "translation"
 weight: 10
-date: "2022-06-15"
+date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
 url: translation
@@ -9,7 +9,7 @@ aliases:
 - translation/groupdocs-translation-cloud-technical-support
 productName: "GroupDocs.Translation Cloud"
 title: GroupDocs.Translation Cloud Product Family
-description: An introduction to OCR technology and how Aspose.OCR for .NET can help you use it for your day-to-day business needs.
+description: An introduction to machine translation technology and how GroupDocs.Translation Cloud can help you use it for your day-to-day business needs.
 keywords:
 - overview
 - introduction

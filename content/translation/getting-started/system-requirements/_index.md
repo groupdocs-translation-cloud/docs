@@ -16,7 +16,7 @@ keywords:
 - environment
 ---
 
-**GroupDocs.Translation Cloud** is an on-demand service hosted in Aspose Cloud. As such, it has no specific device or operating system requirements and can be used with any programming language that supports HTTPS requests: .NET, Java, PHP, JavaScript (AJAX), Ruby, Python, Kotlin, Go, Node.js, C++, and many more.
+**GroupDocs.Translation Cloud** is an on-demand service. As such, it has no specific device or operating system requirements and can be used with any programming language that supports HTTPS requests: .NET, Java, PHP, JavaScript (AJAX), Ruby, Python, Kotlin, Go, Node.js, C++, and many more.
 
 You can also use third party REST clients like _cURL_ or _Postman_.
 
