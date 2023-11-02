@@ -38,6 +38,12 @@ The text and translation parameters are provided in JSON format in the request b
 If the translated text is very long, you may encounter an error when calling translation via cURL in a shell command. Use the `getconf ARG_MAX` command to check the maximum length of the command arguments (in bytes).
 {{% /alert %}}
 
+## Evaluation mode
+
+To use GroupDocs.Translation Cloud REST API in [evaluation mode](/translation/evaluation/), send a **POST** request to the endpoint `https://api.groupdocs.cloud/v2.0/translation/text/trial`.
+
+This endpoint does not use the **Authorization** header, so there is no need to generate an access token. All other parameters remain the same as in [regular](/translation/subscription/) text translation requests.
+
 ## Translation settings
 
 Property | Type | Default value | Description
@@ -67,7 +73,7 @@ Translation will take a few seconds, depending on the size of the text and the c
 
 ## cURL example
 
-{{< tabs tabID="1" tabTotal="2" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabID="1" tabTotal="3" tabName1="Request (free tier/paid plan)" tabName2="Request (evaluation)" tabName3="Response" >}}
 {{< tab tabNum="1" >}}
 ```bash
 curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/text' \
@@ -85,6 +91,21 @@ curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/tex
 ```
 {{< /tab >}}
 {{< tab tabNum="2" >}}
+```bash
+curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/text/trial' \
+--header 'Content-Type: application/json' \
+--data '{
+	"sourceLanguage": "en",
+	"targetLanguages": [
+		"de"
+	],
+	"texts": [
+		"Hello, world! I can read this text in my language."
+	]
+}'
+```
+{{< /tab >}}
+{{< tab tabNum="3" >}}
 ```json
 {
 	"status": 202,

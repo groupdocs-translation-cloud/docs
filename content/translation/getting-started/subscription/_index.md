@@ -1,7 +1,7 @@
 ---
 id: "getting-started"
 weight: 30
-date: "2022-06-17"
+date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
 url: translation/subscription
@@ -39,3 +39,5 @@ Paid plan allows you to translate as many files as you need. Each month, we will
 Visit [GroupDocs Cloud API Dashboard](https://dashboard.groupdocs.cloud/) to select a plan, check out the the total number of API calls in the current period, billing information and detailed usage logs.
 
 If you have questions related to a purchase, check out our [purchase policies and FAQs](https://purchase.groupdocs.cloud/policies).
+
+## Learn more

@@ -1,7 +1,7 @@
 ---
 id: "text-fetch"
 weight: 20
-date: "2023-10-20"
+date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
 url: /translation/text/fetch/
@@ -27,6 +27,14 @@ Provide the [unique identifier](/translation/text/request/#return-value) of the 
 curl --request GET --location 'https://api.groupdocs.cloud/v2.0/translation/text/a4fc6c6e-81b0-43c8-b62b-b8bb99520ce9' \
 --header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...UV1hLfgNCSQ4VKGCOA'
 ```
+
+## Evaluation mode
+
+To get the translation from [evaluation](/translation/text/request/#evaluation-mode) request, send a **GET** request to the endpoint `https://api.groupdocs.cloud/v2.0/translation/text/trial/{request ID}`.
+
+This endpoint does not use the **Authorization** header, so there is no need to generate an access token.
+
+You can also use the standard (authorized) endpoint to fetch a translation, even if it was requested in evaluation mode.
 
 ## Translated texts
 

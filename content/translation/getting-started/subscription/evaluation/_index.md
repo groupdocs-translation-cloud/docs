@@ -1,13 +1,13 @@
 ---
 id: "free-trial"
 weight: 15
-date: "2023-10-06"
+date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: translation/free-trial
+url: translation/evaluation
 productName: "GroupDocs.Translation Cloud"
-title: Free trial
-description: Eveluate GroupDocs.Translation Cloud service without registration.
+title: Evaluation tier
+description: Evaluate GroupDocs.Translation Cloud service without registration.
 keywords:
 - trial
 - evaluate
@@ -20,7 +20,7 @@ You can try GroupDocs.Translation Cloud without [subscribing](/translation/subsc
 
 Method | Limitations
 ------ | -----------
-Translate text | <ul><li>Maximum **1,000** characters (including spaces and line breaks)</li></ul>
+[Translate text](/translation/text/request/#evaluation-mode) | <ul><li>Maximum **1,000** characters (including spaces and line breaks)</li></ul>
 Translate Microsoft Word document | <ul><li>Maximum **1,000** characters (including spaces) _or_ the first page (whichever less).</li><li>Conversion to other formats is not supported.</li></ul>
 Translate PDF document | <ul><li>Maximum **1,000** characters (including spaces) _or_ the first page (whichever less).</li><li>Conversion to other formats is not supported.</li></ul>
 
