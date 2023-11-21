@@ -25,5 +25,6 @@ jobs:
 
       - name: Run and build Hugo
         run: |
+          find ./docs-cloud-common/content/ -type d -exec rmdir --ignore-fail-on-non-empty {} \;
           rsync --recursive --delete --force --progress content/${{ env.PRODUCT }} docs-cloud-common/content/
           hugo --source docs-cloud-common --minify --config config.toml,ignore-total-config.toml
