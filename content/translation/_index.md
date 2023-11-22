@@ -45,7 +45,7 @@ Explore free online apps build with GroupDocs.Translation Cloud. Experience prod
 - [Online resource translation](https://products.groupdocs.app/translation/resources)  
   Translate RESX resources online.
 
-## Technical support
+## Technical support.
 
 GroupDocs provides unlimited free technical support for GroupDocs.Translation Cloud. Support is available to all users, regardless of subscription type, including free tier users.
 
