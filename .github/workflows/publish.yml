@@ -6,7 +6,8 @@ name: publish
 on:
   workflow_run:
     workflows: ["build"]
-    branches: [main]
+#    branches: [main]
+    branches: [actions]
     types:
       - completed
   workflow_dispatch:
