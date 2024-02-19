@@ -15,6 +15,7 @@ keywords:
 - request
 - text
 - content
+toc: True
 ---
 
 To translate plain text, send a **POST** request to the `https://api.groupdocs.cloud/v2.0/translation/text` GroupDocs.Translation Cloud REST API endpoint. To authorize the request, pass the [access token](/translation/authorization/) in **Authorization** header (_Bearer_ authentication).
@@ -23,14 +24,14 @@ The text and translation parameters are provided in JSON format in the request b
 
 ```json
 {
-	"sourceLanguage": "en",
-	"targetLanguages": [
-		"de"
-	],
-	"containsMarkdown": false,
-	"texts": [
-		"Hello, world! I can read this text in my language."
-	],
+    "sourceLanguage": "en",
+    "targetLanguages": [
+        "de"
+    ],
+    "containsMarkdown": false,
+    "texts": [
+        "Hello, world! I can read this text in my language."
+    ],
 }
 ```
 
@@ -59,9 +60,9 @@ If successful, this method returns JSON with a unique identifier (value of the `
 
 ```json
 {
-	"status": 202,
-	"message": "Starting translation",
-	"id": "a4fc6c6e-81b0-43c8-b62b-b8bb99520ce9"
+    "status": 202,
+    "message": "Starting translation",
+    "id": "a4fc6c6e-81b0-43c8-b62b-b8bb99520ce9"
 }
 ```
 
@@ -73,44 +74,44 @@ Translation will take a few seconds, depending on the size of the text and the c
 
 ## cURL example
 
-{{< tabs tabID="1" tabTotal="3" tabName1="Request (free tier/paid plan)" tabName2="Request (evaluation)" tabName3="Response" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1">}}
+{{< tab "Request (free tier/paid plan)" >}}
 ```bash
 curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/text' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...UV1hLfgNCSQ4VKGCOA' \
 --data '{
-	"sourceLanguage": "en",
-	"targetLanguages": [
-		"de"
-	],
-	"texts": [
-		"Hello, world! I can read this text in my language."
-	]
+    "sourceLanguage": "en",
+    "targetLanguages": [
+        "de"
+    ],
+    "texts": [
+        "Hello, world! I can read this text in my language."
+    ]
 }'
 ```
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Request (evaluation)" >}}
 ```bash
 curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/text/trial' \
 --header 'Content-Type: application/json' \
 --data '{
-	"sourceLanguage": "en",
-	"targetLanguages": [
-		"de"
-	],
-	"texts": [
-		"Hello, world! I can read this text in my language."
-	]
+    "sourceLanguage": "en",
+    "targetLanguages": [
+        "de"
+    ],
+    "texts": [
+        "Hello, world! I can read this text in my language."
+    ]
 }'
 ```
 {{< /tab >}}
-{{< tab tabNum="3" >}}
+{{< tab "Request (Response)" >}}
 ```json
 {
-	"status": 202,
-	"message": "Starting translation",
-	"id": "a4fc6c6e-81b0-43c8-b62b-b8bb99520ce9"
+    "status": 202,
+    "message": "Starting translation",
+    "id": "a4fc6c6e-81b0-43c8-b62b-b8bb99520ce9"
 }
 ```
 {{< /tab >}}

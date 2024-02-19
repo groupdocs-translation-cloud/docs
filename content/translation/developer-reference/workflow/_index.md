@@ -18,6 +18,7 @@ keywords:
 - process
 - request
 - response
+toc: True
 ---
 
 GroupDocs.Translation Cloud can translate texts and and documents in a [number of formats](/translation/supported-file-formats/) with just 2 REST API calls or a few lines of code in any programming language supported by [SDK](/translation/sdk/). Read [Hello, world!](/translation/hello-world/) article for a hands-on example.

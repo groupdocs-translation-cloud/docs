@@ -14,6 +14,7 @@ keywords:
 - auth
 - access
 - security
+toc: True
 ---
 
 GroupDocs.Translation Cloud follows industry standards and best practices to keep your data secure. All communication with GroupDocs.Translation Cloud REST API is done using JWT authentication, which provides an open-standard, highly secure way to exchange information.
@@ -46,8 +47,8 @@ Now request an access token by sending the **POST** request to `https://id.group
 - `client_id` - the value from **Client Id** field.
 - `client_secret` - the value from **Client Secret** field.
 
-{{< tabs tabID="1" tabTotal="2" tabName1="Request" tabName2="Response" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1">}}
+{{< tab "Request" >}}
 ```bash
 curl --location --request POST 'https://id.groupdocs.cloud/connect/token' \
      --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -55,13 +56,12 @@ curl --location --request POST 'https://id.groupdocs.cloud/connect/token' \
      --data-urlencode 'client_id=CLIENT-ID-VALUE' \
      --data-urlencode 'client_secret=CLIENT-SECRET-VALUE'
 ```
-{{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< /tab >}} {{< tab "Resonse" >}}
 ```json
 {
-	"access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...BUNNec2iRtStPW2Ywek4iJmYwMbWONQ",
-	"expires_in": 3600,
-	"token_type": "Bearer"
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...BUNNec2iRtStPW2Ywek4iJmYwMbWONQ",
+    "expires_in": 3600,
+    "token_type": "Bearer"
 }
 ```
 {{< /tab >}}
@@ -82,9 +82,8 @@ curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/tex
 
 The SDKs greatly simplify all operations for obtaining an access token and authorizing requests. Just pass in the values from the **Client ID** and **Client Secret** fields when initializing the translation API and it will do the rest for you.
 
-{{< tabs tabID="2" tabTotal="1" tabName1=".NET (C#)" >}}
-
-{{< tab tabNum="1" >}}
+{{< tabs "example2">}}
+{{< tab "NET (C#)" >}}
 ```csharp
 Configuration config = new Configuration();
 /** Authorize your requests to GroupDocs.Translation Cloud */
@@ -95,8 +94,6 @@ config.OAuthClientSecret = "YOU_CLIENT_SECRET";
 config.BasePath = "https://api.groupdocs.cloud/v2.0/translation";
 TranslationApi apiInstance = new TranslationApi(config);
 ```
+{{< /tab >}} {{< /tabs >}}
 
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-dotnet
-{{< /tab >}}
-
-{{< /tabs >}}

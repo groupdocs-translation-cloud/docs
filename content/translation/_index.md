@@ -8,7 +8,7 @@ url: translation
 aliases:
 - translation/groupdocs-translation-cloud-technical-support
 productName: "GroupDocs.Translation Cloud"
-title: GroupDocs.Translation Cloud Product Family
+title: GroupDocs.Translation Cloud
 description: An introduction to machine translation technology and how GroupDocs.Translation Cloud can help you use it for your day-to-day business needs.
 keywords:
 - overview

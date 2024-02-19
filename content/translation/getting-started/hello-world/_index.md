@@ -17,6 +17,7 @@ keywords:
 - sample
 - dummies
 - code
+toc: True
 ---
 
 In this article, you will learn how to translate a short text from English to German using GroupDocs.Translation Cloud REST API.
@@ -58,9 +59,9 @@ You should get a response that looks something like this:
 
 ```json
 {
-	"access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...J5xlBi7mQfuNMzxpjUGVCUOOuGEd6iuJCbMaGanlhA9g",
-	"expires_in": 3600,
-	"token_type": "Bearer"
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9..	J5xlBi7mQfuNMzxpjUGVCUOOuGEd6iuJCbMaGanlhA9g",
+    "expires_in": 3600,
+    "token_type": "Bearer"
 }
 ```
 
@@ -99,9 +100,9 @@ Wait a moment. The request will be placed in the queue and you will get its uniq
 
 ```json
 {
-	"status": 202,
-	"message": "Starting translation",
-	"id": "cb87bd7c-4660-3033-88c7-2b30edb44a4d"
+    "status": 202,
+    "message": "Starting translation",
+    "id": "cb87bd7c-4660-3033-88c7-2b30edb44a4d"
 }
 ```
 
@@ -120,19 +121,18 @@ You will get the following response:
 
 ```json
 {
-	"status": 200,
-	"message": "Text translated successfully",
-	"translations": {
-		"de": [
-			"Hallo, Welt! Ich kann diesen Text in meiner Sprache lesen."
-		]
-	}
+    "status": 200,
+    "message": "Text translated successfully",
+    "translations": {
+        "de": [
+            "Hallo, Welt! Ich kann diesen Text in meiner Sprache lesen."
+        ]
+    }
 }
 ```
 
 ## What’s next?
 
 Congratulations! You have successfully translated the text using GroupDocs.Translation Cloud API.
-
 
 Read the [Developer's Guide](/translation/developer-guide/) and [API Reference](https://api.groupdocs.cloud/v2.0/translation/swagger/index.html) for details on creating advanced translation solutions with GroupDocs.Translation Cloud.
