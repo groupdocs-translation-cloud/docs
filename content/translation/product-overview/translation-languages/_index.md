@@ -17,7 +17,7 @@ keywords:
 - target
 ---
 
-GroupDocs.Translation Cloud supports **46** languages and **96** direct language pairs. The service covers the most popular European, Middle Eastern, and Asian languages, making it an universal translation solution.
+GroupDocs.Translation Cloud supports **46** languages and **128** direct language pairs. The service covers the most popular European, Middle Eastern, and Asian languages, making it an universal translation solution.
 
 <style>
 	.lang-list {
@@ -170,6 +170,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -189,12 +190,11 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -470,6 +470,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -490,8 +491,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -925,22 +925,22 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1003,13 +1003,13 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>German</td>
 		<td>DE</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1027,14 +1027,14 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1268,7 +1268,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1370,7 +1370,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1390,7 +1390,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1618,9 +1618,9 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1718,9 +1718,9 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -1868,7 +1868,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -2003,7 +2003,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>Spanish</td>
 		<td>ES</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -2018,16 +2018,16 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -2059,7 +2059,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
@@ -2203,7 +2203,7 @@ GroupDocs.Translation Cloud supports **46** languages and **96** direct language
 		<td>Turkish</td>
 		<td>TR</td>
 		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td class="supported">&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>

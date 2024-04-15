@@ -18,7 +18,7 @@ keywords:
 - links
 ---
 
-Machine translation is one of the most demanded areas in NLP today as it allows faster and easier communication with your friends, colleagues, customers, business partners all over the world. Although the quality of machine translation has improved significantly in recent years, it is still not an adequate substitute for translation made by professionals in many cases. Nevertheless, taking into account speed of machine translation, it could be an indispensable assistant in your everyday routine. GroupDocs.Translation apps were created for this purpose. They use neural networks that provide fast and high-quality translation, and usage of our products allows to work not only with plain text, but also with Microsoft Office documents, PDF and Markdown files, preserving their layout.
+Machine translation is one of the most demanded areas in NLP today as it allows faster and easier communication with your friends, colleagues, customers, business partners all over the world. Although the quality of machine translation has improved significantly in recent years, it is still not an adequate substitute for translation made by professionals in many cases. Nevertheless, taking into account speed of machine translation, it could be an indispensable assistant in your everyday routine. GroupDocs.Translation apps were created for this purpose. They use neural networks that provide fast and high-quality translation, and usage of our products allows to work not only with plain text, but also with Microsoft Office documents, PDF and Markdown files, preserving their layout. GroupDocs.Translation also supports OCR techology, that allows to work also with images and scanned documents and receive the result either in the form of plain text or as a PDF document.
 
 GroupDocs.Translation Cloud is an on-demand service that translates a wide range of documents, from business contracts and agreements to technical documentation, using the power of neural machine translation. Supporting over **30** languages, the service can process documents in all popular formats while maintaining their original layout, structure, and formatting. Documents can also be converted on the fly, ensuring full compatibility with all editors and viewers.
 
@@ -44,6 +44,20 @@ Explore free online apps build with GroupDocs.Translation Cloud. Experience prod
   Translate Apache OpenOffice and LibreOffice documents online preserving their structure.
 - [Online resource translation](https://products.groupdocs.app/translation/resources)  
   Translate RESX resources online.
+- [Online image to text translation](https://products.groupdocs.app/translation/image-to-text)  
+  Translate image and get the result as plain text online.
+- [Online image to PDF translation](https://products.groupdocs.app/translation/image-to-pdf)  
+  Translate image and get the result as PDF online.
+- [Online PDF to text translation](https://products.groupdocs.app/translation/pdf-to-text)  
+  Translate scanned PDF and get the result as plain text online.
+- [Online PDF to PDF translation](https://products.groupdocs.app/translation/pdf-to-pdf)  
+  Translate PDF and get the result as PDF online.
+- [Online tables translation](https://products.groupdocs.app/translation/table-to-excel)  
+  Translate scanned table and get the result as Excel file online.
+- [Online handwritten text translation](https://products.groupdocs.app/translation/handwritten-text)  
+  Translate photos or scans with handwritten english text online.
+- [Online subtitles translation](https://products.groupdocs.app/translation/subtitles)  
+  Translate subtitles in SRT format online.
 
 ## Technical support.
 

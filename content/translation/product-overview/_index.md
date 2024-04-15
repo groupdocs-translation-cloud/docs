@@ -16,7 +16,7 @@ keywords:
 - benefit
 ---
 
-GroupDocs.Translation Cloud is an on-demand service that translates a wide range of documents, from business contracts and invoices to technical documentation and XML resource files. This allows you to overcome language barriers, making your content accessible to a global audience. This can be especially useful for expanding your reach and serving a diverse user base.
+GroupDocs.Translation Cloud is an on-demand service that translates a wide range of documents, including scans, from business contracts and invoices to technical documentation and XML resource files. This allows you to overcome language barriers, making your content accessible to a global audience. This can be especially useful for expanding your reach and serving a diverse user base.
 
 Supporting [over 40 languages](/translation/translation-languages/), the service can process both text and files in [all popular formats](/translation/supported-file-formats/) while maintaining the original [layout, structure, and formatting](/translation/supported-formatting/). Documents can also be [converted](/translation/supported-file-formats/#conversion) on the fly, ensuring full compatibility with all editors and viewers.
 

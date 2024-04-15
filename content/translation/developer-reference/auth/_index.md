@@ -82,7 +82,7 @@ curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/tex
 
 The SDKs greatly simplify all operations for obtaining an access token and authorizing requests. Just pass in the values from the **Client ID** and **Client Secret** fields when initializing the translation API and it will do the rest for you.
 
-{{< tabs tabID="2" tabTotal="1" tabName1=".NET (C#)" >}}
+{{< tabs tabID="2" tabTotal="3" tabName1=".NET (C#)" tabName2="Python" tabName3="Java & Android">}}
 
 {{< tab tabNum="1" >}}
 ```csharp
@@ -97,6 +97,31 @@ TranslationApi apiInstance = new TranslationApi(config);
 ```
 
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-dotnet
+{{< /tab >}}
+{{< tab tabNum="2" >}}
+```python
+import groupdocs_translation_cloud
+# Initialize GroupDocs.Translation API
+api = groupdocs_translation_cloud.api.TranslationApi()
+# Authorize your requests to GroupDocs.Translation Cloud 
+api.api_client.configuration.client_id = "YOU_CLIENT_ID"
+api.api_client.configuration.client_secret = "YOU_CLIENT_SECRET"
+```
+
+Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-python
+{{< /tab >}}
+{{< tab tabNum="3" >}}
+```java
+// Authorize your requests to GroupDocs.Translation Cloud
+String basePath = "https://api.groupdocs.cloud/v2.0/translation";
+String cliendId = "YOUR_CLIENT_ID";
+String clientSecret = "YOUR_CLIENT_SECRET"; 
+// Initialize GroupDocs.Translation API
+ApiClient defaultClient = new ApiClient(basePath, cliendId, clientSecret, null);
+TranslationApi translationApi = new TranslationApi(defaultClient);
+```
+
+Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-java
 {{< /tab >}}
 
 {{< /tabs >}}
