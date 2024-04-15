@@ -16,7 +16,6 @@ keywords:
 - conversion
 - source
 - target
-toc: True
 ---
 
 GroupDocs.Translation Cloud can translate files in all popular formats while accurately preserving layout, structure, and formatting.

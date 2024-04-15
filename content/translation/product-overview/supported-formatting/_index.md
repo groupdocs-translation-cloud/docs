@@ -17,7 +17,6 @@ keywords:
 - element
 - source
 - target
-toc: True
 ---
 
 GroupDocs.Translation Cloud preserves layout, structure, and formatting when translating even the most complex documents. Below is the list of layout and structural elements of the source document that are guaranteed to be processed:

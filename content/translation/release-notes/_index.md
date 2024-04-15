@@ -7,5 +7,15 @@ type: docs
 url: translation/release-notes
 productName: "GroupDocs.Translation Cloud"
 title: Release Notes
-external: https://releases.groupdocs.cloud/translation/release-notes/
+description: Read a summary of recent changes, enhancements and bug fixes in GroupDocs.Translation Cloud releases.
+keywords:
+- feature
+- enhancement
+- fix
+- issue
+- new
+- update
+- upgrade
 ---
+
+A summary of recent changes, enhancements and bug fixes in GroupDocs.Translation Cloud releases:

@@ -32,62 +32,62 @@ Property | Type | Description
 
 ```json
 [
-    {
-        "source": "en",
-        "targets": [
-            "ru",
-            "de",
-            "fr",
-            "zh",
-            "es",
-            "it",
-            "ar",
-            "pt",
-            "pl",
-            "uk",
-            "vi",
-            "id",
-            "hi",
-            "el",
-            "nl",
-            "hu",
-            "sv",
-            "tr",
-            "ko",
-            "ja",
-            "fi",
-            "cs",
-            "ga",
-            "sk",
-            "fa",
-            "az",
-            "he",
-            "th",
-            "ro",
-            "ms",
-            "bg",
-            "bn",
-            "no",
-            "da",
-            "lv",
-            "lt",
-            "et",
-            "hy",
-            "ca",
-            "hr",
-            "sr",
-            "af",
-            "ur",
-            "tl",
-            "ka"
-        ]
-    },
-    ...,
-    {
-        "source": "ka",
-        "targets": [
-            "en"
-        ]
-    }
+	{
+		"source": "en",
+		"targets": [
+			"ru",
+			"de",
+			"fr",
+			"zh",
+			"es",
+			"it",
+			"ar",
+			"pt",
+			"pl",
+			"uk",
+			"vi",
+			"id",
+			"hi",
+			"el",
+			"nl",
+			"hu",
+			"sv",
+			"tr",
+			"ko",
+			"ja",
+			"fi",
+			"cs",
+			"ga",
+			"sk",
+			"fa",
+			"az",
+			"he",
+			"th",
+			"ro",
+			"ms",
+			"bg",
+			"bn",
+			"no",
+			"da",
+			"lv",
+			"lt",
+			"et",
+			"hy",
+			"ca",
+			"hr",
+			"sr",
+			"af",
+			"ur",
+			"tl",
+			"ka"
+		]
+	},
+	...,
+	{
+		"source": "ka",
+		"targets": [
+			"en"
+		]
+	}
 ]
 ```

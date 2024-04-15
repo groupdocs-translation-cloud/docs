@@ -17,7 +17,6 @@ keywords:
 - obtain
 - fetch
 - result
-toc: True
 ---
 
 When text is submitted for translation, it is queued to ensure a stable response even under high load. To obtain the translations, send a **GET** request to the `https://api.groupdocs.cloud/v2.0/translation/text/{request ID}` GroupDocs.Translation Cloud REST API endpoint. To authorize the request, pass the [access token](/translation/authorization/) in **Authorization** header (_Bearer_ authentication).
@@ -43,13 +42,13 @@ Translations are returned in JSON format in the response body.
 
 ```json
 {
-    "status": 200,
-    "message": "Text translated successfully",
-    "translations": {
-        "de": [
-            "Hallo, Welt! Ich kann diesen Text in meiner Sprache lesen."
-        ]
-    }
+	"status": 200,
+	"message": "Text translated successfully",
+	"translations": {
+		"de": [
+			"Hallo, Welt! Ich kann diesen Text in meiner Sprache lesen."
+		]
+	}
 }
 ```
 
@@ -67,25 +66,26 @@ If the text is not yet translated, try fetching the result in a couple of second
 
 ## cURL example
 
-{{< tabs "example1">}}
-{{< tab "Request" >}}
+{{< tabs tabID="1" tabTotal="2" tabName1="Request" tabName2="Response" >}}
+{{< tab tabNum="1" >}}
 ```bash
 curl --request GET --location 'https://api.groupdocs.cloud/v2.0/translation/text/a4fc6c6e-81b0-43c8-b62b-b8bb99520ce9' \
 --header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...UV1hLfgNCSQ4VKGCOA'
 ```
-{{< /tab >}} {{< tab "Resonse" >}}
+{{< /tab >}}
+{{< tab tabNum="2" >}}
 ```json
 {
-    "status": 200,
-    "message": "Text translated successfully",
-    "translations": {
-        "uk": [
-            "Я можу прочитати цей вірш своєю мовою."
-        ],
-        "ja": [
-            "\"ハローワールド!この文章は,私の言語で読める."
-        ]
-    }
+	"status": 200,
+	"message": "Text translated successfully",
+	"translations": {
+		"uk": [
+			"Я можу прочитати цей вірш своєю мовою."
+		],
+		"ja": [
+			"\"ハローワールド!この文章は,私の言語で読める."
+		]
+	}
 }
 ```
 {{< /tab >}}

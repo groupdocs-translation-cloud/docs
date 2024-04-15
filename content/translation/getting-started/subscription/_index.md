@@ -20,7 +20,6 @@ keywords:
 - pricing
 - plan
 - cloud
-toc: True
 ---
 
 GroupDocs.Translation Cloud is an on-demand service with a free tier. You must [register](/translation/sign-up/) with **GroupDocs Cloud API** to access the translation features.
