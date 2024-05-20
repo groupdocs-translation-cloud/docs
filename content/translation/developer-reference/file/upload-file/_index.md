@@ -19,11 +19,6 @@ Before starting the translation process, you should upload your file to Cloud S3
 
 You should provide a local path to your file in JSON format in the request body.
 
-```json
-{
-	"path": "/path/to/myfile.pdf"
-}
-```
 As a result, you will receive URL to your file, that you should provide in translation request body.
 
 
@@ -32,7 +27,6 @@ As a result, you will receive URL to your file, that you should provide in trans
 ```bash
 curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/file/upload' \
 --header 'Content-Type: application/json' \
---data '{
-	"path": "/path/to/myfile.pdf"
+--F "path=@/path/to/myfile.pdf"
 }'
 ```

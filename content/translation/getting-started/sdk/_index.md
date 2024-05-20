@@ -40,8 +40,8 @@ See the examples below for a quick overview of how SDKs can make your developmen
 
 ### Translating the text 
 
-{{< tabs tabTotal="1" tabID="1" tabName1=".NET (C#)" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1 >}}
+{{< tab ".NET (C#)" >}}
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;

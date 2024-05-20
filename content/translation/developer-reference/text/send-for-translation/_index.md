@@ -73,8 +73,8 @@ Translation will take a few seconds, depending on the size of the text and the c
 
 ## cURL example
 
-{{< tabs tabID="1" tabTotal="3" tabName1="Request (free tier/paid plan)" tabName2="Request (evaluation)" tabName3="Response" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1" >}}
+{{< tab "Request (free tier/paid plan)" >}}
 ```bash
 curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/text' \
 --header 'Content-Type: application/json' \
@@ -90,7 +90,7 @@ curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/tex
 }'
 ```
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Request (evaluation)" >}}
 ```bash
 curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/text/trial' \
 --header 'Content-Type: application/json' \
@@ -105,7 +105,7 @@ curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/tex
 }'
 ```
 {{< /tab >}}
-{{< tab tabNum="3" >}}
+{{< tab "Response" >}}
 ```json
 {
 	"status": 202,

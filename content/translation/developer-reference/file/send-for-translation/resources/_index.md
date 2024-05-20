@@ -73,8 +73,8 @@ Translation will take a few seconds, depending on the size of the file, the volu
 
 ## cURL example
 
-{{< tabs tabID="1" tabTotal="2" tabName1="Request (free tier/paid plan)" tabName3="Response" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1" >}}
+{{< tab "Request (free tier/paid plan)" >}}
 ```bash
 curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/resx' \
 --header 'Content-Type: application/json' \
@@ -89,7 +89,7 @@ curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/res
 }'
 ```
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Response" >}}
 ```json
 {
 	"status": 202,

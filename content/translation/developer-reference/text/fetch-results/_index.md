@@ -66,14 +66,14 @@ If the text is not yet translated, try fetching the result in a couple of second
 
 ## cURL example
 
-{{< tabs tabID="1" tabTotal="2" tabName1="Request" tabName2="Response" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1" >}}
+{{< tab "Request" >}}
 ```bash
 curl --request GET --location 'https://api.groupdocs.cloud/v2.0/translation/text/a4fc6c6e-81b0-43c8-b62b-b8bb99520ce9' \
 --header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...UV1hLfgNCSQ4VKGCOA'
 ```
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Response" >}}
 ```json
 {
 	"status": 200,

@@ -46,8 +46,8 @@ Now request an access token by sending the **POST** request to `https://id.group
 - `client_id` - the value from **Client Id** field.
 - `client_secret` - the value from **Client Secret** field.
 
-{{< tabs tabID="1" tabTotal="2" tabName1="Request" tabName2="Response" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1" >}}
+{{< tab "Request" >}}
 ```bash
 curl --location --request POST 'https://id.groupdocs.cloud/connect/token' \
      --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -56,7 +56,7 @@ curl --location --request POST 'https://id.groupdocs.cloud/connect/token' \
      --data-urlencode 'client_secret=CLIENT-SECRET-VALUE'
 ```
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Response" >}}
 ```json
 {
 	"access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...BUNNec2iRtStPW2Ywek4iJmYwMbWONQ",
@@ -82,9 +82,9 @@ curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/tex
 
 The SDKs greatly simplify all operations for obtaining an access token and authorizing requests. Just pass in the values from the **Client ID** and **Client Secret** fields when initializing the translation API and it will do the rest for you.
 
-{{< tabs tabID="2" tabTotal="3" tabName1=".NET (C#)" tabName2="Python" tabName3="Java & Android">}}
+{{< tabs "example2" >}}
 
-{{< tab tabNum="1" >}}
+{{< tab ".NET (C#)" >}}
 ```csharp
 Configuration config = new Configuration();
 /** Authorize your requests to GroupDocs.Translation Cloud */
@@ -98,7 +98,7 @@ TranslationApi apiInstance = new TranslationApi(config);
 
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-dotnet
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Python" >}}
 ```python
 import groupdocs_translation_cloud
 # Initialize GroupDocs.Translation API
@@ -110,7 +110,7 @@ api.api_client.configuration.client_secret = "YOU_CLIENT_SECRET"
 
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-python
 {{< /tab >}}
-{{< tab tabNum="3" >}}
+{{< tab "Java & Android" >}}
 ```java
 // Authorize your requests to GroupDocs.Translation Cloud
 String basePath = "https://api.groupdocs.cloud/v2.0/translation";

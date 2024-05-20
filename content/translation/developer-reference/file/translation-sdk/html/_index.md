@@ -20,8 +20,8 @@ keywords:
 
 Although you can directly call the GroupDocs.Translation Cloud REST API to [send HTML file for translation](/translation/file/request/html/) and [fetch translated file](/translation/file/fetch/), there is a much easier way to implement translation functionality in your applications. We provide software development kits (SDKs) for all popular programming languages. They wrap up all routine operations such as establishing connections, sending API requests, and parsing responses into a few simple methods. It makes interaction with GroupDocs.Translation Cloud services much easier, allowing you to focus on business logic rather than technical details.
 
-{{< tabs tabID="1" tabTotal="3" tabName1=".NET (C#)" tabName2="Python" tabName3="Java & Android" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1" >}}
+{{< tab ".NET (C#)" >}}
 
 ```csharp
 using System.IO;
@@ -108,7 +108,7 @@ namespace GroupDocs.Translation.Cloud.Sdk
 ```
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-dotnet
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Python" >}}
 
 ```python
 import time
@@ -143,7 +143,7 @@ if response.status == 202:
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-python
 {{< /tab >}}
 
-{{< tab tabNum="3" >}}
+{{< tab "Java & Android" >}}
 
 ```java
 package com.groupdocs;
