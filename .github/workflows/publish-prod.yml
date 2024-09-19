@@ -20,10 +20,11 @@ jobs:
       DEST_DIR: /var/www/docs.groupdocs.cloud/html
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Submodule update
         run: |
+          rm -rf ${{ env.ROOT_DIR }}
           git submodule update --init --recursive
           git submodule foreach git pull origin master
 
@@ -38,8 +39,9 @@ jobs:
 
       - name: Run and build Hugo
         run: |
-          # echo ${{ env.ROOT_DIR }}
-          cp -r content/* ${{ env.ROOT_DIR }}/content/          
+          rm -rf ${{ env.SRC_DIR }}/${{ env.PRODUCT }}
+          rm -rf ${{ env.ROOT_DIR }}/content/
+          cp -r content ${{ env.ROOT_DIR }}/content/           
           hugo --source ${{ env.ROOT_DIR }} --minify --config config-geekdoc.toml
           rootUrl=$(sed -n -e '/^baseURL/p' ${{ env.ROOT_DIR }}/config-geekdoc.toml | sed 's/baseURL//; s/\s*//g; s/=//; s/"//g')
           # echo $rootUrl
@@ -58,11 +60,12 @@ jobs:
           key: ${{ secrets.DOCS_SSH_KEY }} 
       
       - name: Deploy documentation
-        uses: nogsantos/scp-deploy@master
+        uses: burnett01/rsync-deployments@7.0.1
         with:
-          src: ${{ env.SRC_DIR }}/${{ env.PRODUCT }}
-          host: ${{ secrets.DOCS_SSH_HOST }}
-          remote: ${{ env.DEST_DIR }}
-          user: ${{ secrets.DOCS_SSH_USER }}
-          key: ${{ secrets.DOCS_SSH_KEY }}     
+          switches: -vzr --delete
+          path: ${{ env.SRC_DIR }}/${{ env.PRODUCT }}
+          remote_path: ${{ env.DEST_DIR }}
+          remote_host: ${{ secrets.DOCS_SSH_HOST }}
+          remote_user: ${{ secrets.DOCS_SSH_USER }}
+          remote_key: ${{ secrets.DOCS_SSH_KEY }}  
 

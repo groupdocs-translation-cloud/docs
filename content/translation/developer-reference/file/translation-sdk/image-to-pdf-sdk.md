@@ -1,25 +1,26 @@
 ---
-id: "file-sdk"
+id: "image-to-pdf-sdk"
 weight: 40
 date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: translation/file/sdk/
+url: translation/file/sdk/image-to-pdf/
 productName: "GroupDocs.Translation Cloud"
-title: Translating files with GroupDocs.Translation SDK
-description: How to use GroupDocs.Translation Cloud SDK for translating files.
+title: Translating image and scanned PDF files with GroupDocs.Translation SDK
+description: How to use GroupDocs.Translation Cloud SDK for translating image files.
 keywords:
 - translate
 - API
 - program
 - language
+- pdf
 - file
 - content
 ---
 
-Although you can directly call the GroupDocs.Translation Cloud REST API to [send file for translation](/translation/file/request/) and [fetch translated file](/translation/file/fetch/), there is a much easier way to implement translation functionality in your applications. We provide software development kits (SDKs) for all popular programming languages. They wrap up all routine operations such as establishing connections, sending API requests, and parsing responses into a few simple methods. It makes interaction with GroupDocs.Translation Cloud services much easier, allowing you to focus on business logic rather than technical details.
+Although you can directly call the GroupDocs.Translation Cloud REST API to [send image file to PDF for translation](/translation/file/request/image-to-pdf/) and [fetch translated file](/translation/file/fetch/), there is a much easier way to implement translation functionality in your applications. We provide software development kits (SDKs) for all popular programming languages. They wrap up all routine operations such as establishing connections, sending API requests, and parsing responses into a few simple methods. It makes interaction with GroupDocs.Translation Cloud services much easier, allowing you to focus on business logic rather than technical details.
 
-{{< tabs "example1"  >}}
+{{< tabs "example1" >}}
 {{< tab ".NET (C#)" >}}
 
 ```csharp
@@ -54,20 +55,21 @@ namespace GroupDocs.Translation.Cloud.Sdk
 			string sourceLanguage = "en";
 			var targetLanguages = new List<string>() { "de" };
 			string format = "pdf";
-			string outputFormat = "docx";
+			string outputFormat = "pdf";
 			byte[] file = File.ReadAllBytes(filePath);
 			MemoryStream ms = new MemoryStream(file);
 			string url = fileApi.FileUploadPost(format, ms);
 			CloudFileResponse response = new CloudFileResponse();
-			var request = new FileRequest(
+			var request = new ImageToFileRequest(
 				sourceLanguage: sourceLanguage,
 				targetLanguages: targets,
 				url: url,
-				format: FileRequest.FormatEnum.Pdf,
+				format: ImageToFileRequest.FormatEnum.Pdf,
+				ocrformat: ImageToFileRequest.OcrformatEnum.Pdf,
 				outputFormat: outputFormat,
-				savingMode: FileRequest.SavingModeEnum.Files);
+				savingMode: ImageToFileRequest.SavingModeEnum.Files);
 			/** Send file to translation */
-			var responseId = await api.AutoPostAsync(request);			
+			var responseId = await api.ImageToFilePostAsync(request);			
 			/** Wait for results from translation queue */
 			try
 			{
@@ -107,28 +109,27 @@ namespace GroupDocs.Translation.Cloud.Sdk
 ```
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-dotnet
 {{< /tab >}}
-
 {{< tab "Python" >}}
 
 ```python
 import time
 
 import groupdocs_translation_cloud
-from groupdocs_translation_cloud import FileRequest, Format
+from groupdocs_translation_cloud import ImageToFileRequest, Format
 
 api = groupdocs_translation_cloud.api.TranslationApi()
 file_api = groupdocs_translation_cloud.api.FileApi()
 api.api_client.configuration.client_id = "YOU_CLIENT_ID"
 api.api_client.configuration.client_secret = "YOU_CLIENT_SECRET"
 
-url = file_api.file_upload_post(file="/path/to/yourfile.docx", format=Format.Docx)
-file_request = FileRequest(source_language="en", 
+url = file_api.file_upload_post(file="/path/to/yourfile.pdf", format=Format.Pdf)
+file_request = ImageToFileRequest(source_language="en", 
 							           target_languages=["ru"], 
 							           url=url, 
-							           format=Format.Docx,
+							           format=Format.Pdf,
 							           saving_mode=SavingMode.Files, 
-							           output_format=Format.Docx)
-response = api.auto_post(file_request)
+							           output_format=Format.Pdf)
+response = api.image_to_file_post(file_request)
 if response.status == 202:
     while True:
         file_response = api.document_request_id_get(request_id)
@@ -157,7 +158,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class AutoPostDemo {
+public class StrDemo {
     public static void main(String[] args) {
         String basePath = "https://api.groupdocs.cloud/v2.0/translation";
         String cliendId = "YOUR_CLIENT_ID";
@@ -167,27 +168,28 @@ public class AutoPostDemo {
         TranslationApi translationApi = new TranslationApi(defaultClient);
         FileApi fileApi = new FileApi(defaultClient);
 
-        FileRequest fileRequest = new FileRequest();
+        ImageToFileRequest fileRequest = new ImageToFileRequest();
 
         String fileName = "FILE_PATH";
         File fileToTranslate = new File(fileName);
-        String file_url = fileApi.fileUploadPost("FILE_FORMAT", fileToTranslate);
-        
+        String file_url = fileApi.fileUploadPost("FILE_FORMAT", fileToTranslate);        
         fileRequest.setSourceLanguage("en");
-        fileRequest.addTargetLanguagesItem("de");
-        fileRequest.setFormat(FileRequest.FormatEnum.DOCX);
-        fileRequest.setOutputFormat("docx");
-        fileRequest.setSavingMode(FileRequest.SavingModeEnum.FILES);
-        fileRequest.setUrl("");
+        fileRequest.addTargetLanguagesItem("fr");
+        fileRequest.setFormat(ImageToFileRequest.FormatEnum.JPG);
+        fileRequest.setSavingMode(ImageToFileRequest.SavingModeEnum.FILES);
+        fileRequest.setOcrformat(ImageToFileRequest.OcrformatEnum.PDF);
+        fileRequest.setOutputFormat("pdf");
+        fileRequest.setUrl(file_url);
 
         try {
-            StatusResponse response = translationApi.autoPost(fileRequest);
+            StatusResponse response = translationApi.imageToFilePost(fileRequest);
             String _id = response.getId();
             if (!response.getStatus().toString().equals("500")) {
                 while (true) {
-                    CloudFileResponse fileResponse = translationApi.documentRequestIdGet(_id);
-                    if (fileResponse.getStatus().toString().equals("200")){
-                        System.out.println(fileResponse);
+                    CloudFileResponse textResponse = translationApi.documentRequestIdGet(_id);
+                    System.out.println(textResponse);
+                    if (textResponse.getStatus().toString().equals("200")){
+                        System.out.println(textResponse);
                         break;
                     }
                     try {
@@ -199,7 +201,7 @@ public class AutoPostDemo {
             }
         }
         catch(ApiException e){
-            System.err.println("Exception when calling TranslationApi#autoPost");
+            System.err.println("Exception when calling TranslationApi#imageToFilePost");
             System.err.println("Status code: " + e.getCode());
             System.err.println("Reason: " + e.getResponseBody());
             System.err.println("Response headers: " + e.getResponseHeaders());
@@ -216,5 +218,3 @@ Visit our GitHub repository for a working code and sample files: https://github.
 {{< /tab >}}
 
 {{< /tabs >}}
-
-## Learn more

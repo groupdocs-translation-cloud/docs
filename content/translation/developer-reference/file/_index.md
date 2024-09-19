@@ -4,7 +4,7 @@ weight: 40
 date: "2023-10-20"
 author: "Vladimir Lapin"
 type: docs
-url: /translation/file/
+url: translation/file/
 productName: "GroupDocs.Translation Cloud"
 title: Translating files
 description: How to translate plain text.

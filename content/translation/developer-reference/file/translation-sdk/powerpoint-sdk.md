@@ -1,25 +1,26 @@
 ---
-id: "file-sdk"
-weight: 40
+id: "powerpoint-sdk"
+weight: 80
 date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: translation/file/sdk/
+url: translation/file/sdk/powerpoint/
 productName: "GroupDocs.Translation Cloud"
-title: Translating files with GroupDocs.Translation SDK
-description: How to use GroupDocs.Translation Cloud SDK for translating files.
+title: Translating PowerPoint files with GroupDocs.Translation SDK
+description: How to use GroupDocs.Translation Cloud SDK for translating PowerPoint files.
 keywords:
 - translate
 - API
 - program
 - language
+- powerpoint
 - file
 - content
 ---
 
-Although you can directly call the GroupDocs.Translation Cloud REST API to [send file for translation](/translation/file/request/) and [fetch translated file](/translation/file/fetch/), there is a much easier way to implement translation functionality in your applications. We provide software development kits (SDKs) for all popular programming languages. They wrap up all routine operations such as establishing connections, sending API requests, and parsing responses into a few simple methods. It makes interaction with GroupDocs.Translation Cloud services much easier, allowing you to focus on business logic rather than technical details.
+Although you can directly call the GroupDocs.Translation Cloud REST API to [send PowerPoint file for translation](/translation/file/request/powerpoint/) and [fetch translated file](/translation/file/fetch/), there is a much easier way to implement translation functionality in your applications. We provide software development kits (SDKs) for all popular programming languages. They wrap up all routine operations such as establishing connections, sending API requests, and parsing responses into a few simple methods. It makes interaction with GroupDocs.Translation Cloud services much easier, allowing you to focus on business logic rather than technical details.
 
-{{< tabs "example1"  >}}
+{{< tabs "example1" >}}
 {{< tab ".NET (C#)" >}}
 
 ```csharp
@@ -49,25 +50,25 @@ namespace GroupDocs.Translation.Cloud.Sdk
 			TranslationApi api = new TranslationApi(config);
 			FileApi fileApi = new FileApi(config);
 			/** Specify translation parameters */
-			string filePath = "/path/to/myfile.pdf";
+			string filePath = "/path/to/myfile.pptx";
 			string savePath = "/path/to/savefile/";
 			string sourceLanguage = "en";
 			var targetLanguages = new List<string>() { "de" };
-			string format = "pdf";
-			string outputFormat = "docx";
+			string format = "pptx";
+			string outputFormat = "pptx";
 			byte[] file = File.ReadAllBytes(filePath);
 			MemoryStream ms = new MemoryStream(file);
 			string url = fileApi.FileUploadPost(format, ms);
 			CloudFileResponse response = new CloudFileResponse();
-			var request = new FileRequest(
+			var request = new PresentationFileRequest(
 				sourceLanguage: sourceLanguage,
 				targetLanguages: targets,
 				url: url,
-				format: FileRequest.FormatEnum.Pdf,
+				format: PresentationFileRequest.FormatEnum.Pdf,
 				outputFormat: outputFormat,
-				savingMode: FileRequest.SavingModeEnum.Files);
+				savingMode: PresentationFileRequest.SavingModeEnum.Files);
 			/** Send file to translation */
-			var responseId = await api.AutoPostAsync(request);			
+			var responseId = await api.PresentationPostAsync(request);			
 			/** Wait for results from translation queue */
 			try
 			{
@@ -107,28 +108,27 @@ namespace GroupDocs.Translation.Cloud.Sdk
 ```
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-translation-cloud/groupdocs-translation-cloud-dotnet
 {{< /tab >}}
-
 {{< tab "Python" >}}
 
 ```python
 import time
 
 import groupdocs_translation_cloud
-from groupdocs_translation_cloud import FileRequest, Format
+from groupdocs_translation_cloud import PresentationFileRequest, Format
 
 api = groupdocs_translation_cloud.api.TranslationApi()
 file_api = groupdocs_translation_cloud.api.FileApi()
 api.api_client.configuration.client_id = "YOU_CLIENT_ID"
 api.api_client.configuration.client_secret = "YOU_CLIENT_SECRET"
 
-url = file_api.file_upload_post(file="/path/to/yourfile.docx", format=Format.Docx)
-file_request = FileRequest(source_language="en", 
+url = file_api.file_upload_post(file="/path/to/yourfile.pptx", format=Format.Pptx)
+file_request = PresentationFileRequest(source_language="en", 
 							           target_languages=["ru"], 
 							           url=url, 
-							           format=Format.Docx,
-							           saving_mode=SavingMode.Files, 
+							           format=Format.Pptx,
+							           saving_mode=SavingMode.Pptx, 
 							           output_format=Format.Docx)
-response = api.auto_post(file_request)
+response = api.presentation_post(file_request)
 if response.status == 202:
     while True:
         file_response = api.document_request_id_get(request_id)
@@ -145,7 +145,6 @@ Visit our GitHub repository for a working code and sample files: https://github.
 {{< /tab >}}
 
 {{< tab "Java & Android" >}}
-
 ```java
 package com.groupdocs;
 // Import classes:
@@ -157,7 +156,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class AutoPostDemo {
+public class PresentationDemo {
     public static void main(String[] args) {
         String basePath = "https://api.groupdocs.cloud/v2.0/translation";
         String cliendId = "YOUR_CLIENT_ID";
@@ -167,21 +166,19 @@ public class AutoPostDemo {
         TranslationApi translationApi = new TranslationApi(defaultClient);
         FileApi fileApi = new FileApi(defaultClient);
 
-        FileRequest fileRequest = new FileRequest();
+        PresentationFileRequest fileRequest = new PresentationFileRequest();
 
         String fileName = "FILE_PATH";
         File fileToTranslate = new File(fileName);
-        String file_url = fileApi.fileUploadPost("FILE_FORMAT", fileToTranslate);
-        
-        fileRequest.setSourceLanguage("en");
+        String file_url = fileApi.fileUploadPost("FILE_FORMAT", fileToTranslate);        fileRequest.setSourceLanguage("en");
         fileRequest.addTargetLanguagesItem("de");
-        fileRequest.setFormat(FileRequest.FormatEnum.DOCX);
-        fileRequest.setOutputFormat("docx");
-        fileRequest.setSavingMode(FileRequest.SavingModeEnum.FILES);
-        fileRequest.setUrl("");
+        fileRequest.setFormat(PresentationFileRequest.FormatEnum.PPTX);
+        fileRequest.setOutputFormat("pptx");
+        fileRequest.setSavingMode(PresentationFileRequest.SavingModeEnum.FILES);
+        fileRequest.setUrl(file_url);
 
         try {
-            StatusResponse response = translationApi.autoPost(fileRequest);
+            StatusResponse response = translationApi.presentationPost(fileRequest);
             String _id = response.getId();
             if (!response.getStatus().toString().equals("500")) {
                 while (true) {
@@ -199,7 +196,7 @@ public class AutoPostDemo {
             }
         }
         catch(ApiException e){
-            System.err.println("Exception when calling TranslationApi#autoPost");
+            System.err.println("Exception when calling TranslationApi#presentationPost");
             System.err.println("Status code: " + e.getCode());
             System.err.println("Reason: " + e.getResponseBody());
             System.err.println("Response headers: " + e.getResponseHeaders());
@@ -208,6 +205,7 @@ public class AutoPostDemo {
         catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 }
 ```
@@ -216,5 +214,3 @@ Visit our GitHub repository for a working code and sample files: https://github.
 {{< /tab >}}
 
 {{< /tabs >}}
-
-## Learn more
