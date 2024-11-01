@@ -17,7 +17,7 @@ keywords:
 - content
 ---
 
-Although you can directly call the GroupDocs.Translation Cloud REST API to [send text for translation](/translation/text/request/) and [fetch translated text](/translation/text/fetch/), there is a much easier way to implement translation functionality in your applications. We provide software development kits (SDKs) for all popular programming languages. They wrap up all routine operations such as establishing connections, sending API requests, and parsing responses into a few simple methods. It makes interaction with GroupDocs.Translation Cloud services much easier, allowing you to focus on business logic rather than technical details.
+Although you can directly call the GroupDocs.Translation Cloud REST API to [send text for translation](/translation/text/request/) and [fetch translated text](/translation/text/fetch/), there is a much easier way to implement translation functionality in your applications. We provide software development kits (SDKs) for all popular programming languages. They wrap up all routine operations such as establishing connections, sending API requests, and parsing responses into a few simple methods. It makes interaction with GroupDocs.Translation Cloud services much easier, allowing you to focus on business logic rather than technical details. Keep in mind, that for usage in non trial mode, you should get your [CliendId and ClientSecret](/translation/authorization/)
 
 {{< tabs "example1" >}}
 
@@ -50,7 +50,7 @@ namespace GroupDocs.Translation.Cloud.Sdk
 			config.BasePath = "https://api.groupdocs.cloud/v2.0/translation";
 			TranslationApi apiInstance = new TranslationApi(config);
 			/** Specify translation parameters */
-			string translateFrom = new List<string>() { "Hello, world! I can read this text in my language." };
+			List<string> translateFrom = new List<string>() { "Hello, world! I can read this text in my language." };
 			string sourceLanguage = "en";
 			var targetLanguages = new List<string>() { "de" };
 			var request = new TextRequest(
@@ -64,10 +64,10 @@ namespace GroupDocs.Translation.Cloud.Sdk
 			{
 				while(true)
 				{
-					var result = apiInstance.TextRequestIdGet(statusResponse.Id);
+					var result = apiInstance.TextRequestIdGet(translationStatus.Id);
 					if(result.Status.ToSystemHttpStatusCode() == HttpStatusCode.OK)
 					{
-						Console.WriteLine(result.Translations[toLang].First());
+						Console.WriteLine(result.Translations[targetLanguages].First());
 						break;
 					}
 					Thread.Sleep(1000);
